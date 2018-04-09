@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+<!DOCTYPE projections SYSTEM "Plex.dtd">
+<projections>
+	<projection>
+		<date>
+			<jour>09</jour>
+			<mois>04</mois>
+			<annee>2018</annee>
+		</date>
+		<salle>C23</salle>
+		<film>
+			<titre>Le magnifique projet de SER</titre>
+			<synopsis>Deux étudiants se retrouvent contraint de faire un projet de SER. Vont-ils y arriver ?!</synopsis>
+			<duree>180</duree>
+			<critiques>
+				<critique>
+					<texte>Un suspense insoutenable</texte>
+					<note>5</note>
+				</critique>
+				<critique>
+					<texte>Une histoire palpitante</texte>
+					<note>5</note>
+				</critique>
+				<critique>
+					<texte>C'était mieux avant</texte>
+					<note>1</note>
+				</critique>
+			</critiques>
+			<genres>
+				<genre>Science-Fiction</genre>
+				<genre>Documentaire</genre>
+			</genres>
+			<mots_cles>
+				<mot_cle>SER</mot_cle>
+				<mot_cle>HistoireVraie</mot_cle>
+				<mot_cle>Projet</mot_cle>
+				<mot_cle>Saucisse</mot_cle>
+			</mots_cles>
+			<langages>
+				<audio>Anglais</audio>
+				<sous_titres>
+					<sous_titre>Français</sous_titre>
+					<sous_titre>Allemand</sous_titre>
+				</sous_titres>
+			</langages>
+			<photo url="http://docr.iict.ch/imdb/SERAffiche.jpg" />
+			<acteurs>
+				<acteur sexe="Masculin">
+					<nom>Jackini</nom>
+					<nom_naissance>David Jaquet</nom_naissance>
+					<biographie>Un acteur incroyablement beau</biographie>
+					<roles>
+						<role>
+							<nom>Principale</nom>
+							<place>1</place>
+						</role>
+					</roles>
+					<date_naissance>
+						<jour>08</jour>
+						<mois>05</mois>
+						<annee>1993</annee>
+					</date_naissance>
+					<date_deces>
+						<jour>10</jour>
+						<mois>04</mois>
+						<annee>2018</annee>
+					</date_deces>
+				</acteur>
+				<acteur sexe="Masculin">
+					<nom>Guidure</nom>
+					<nom_naissance>Vincent Guidoux</nom_naissance>
+					<biographie>Un humour sans égal</biographie>
+					<roles>
+						<role>
+							<nom>Principale</nom>
+							<place>2</place>
+						</role>
+						<role>
+							<nom>Secondaire</nom>
+							<place>3</place>
+						</role>
+					</roles>
+					<date_naissance>
+						<jour>26</jour>
+						<mois>03</mois>
+						<annee>1994</annee>
+					</date_naissance>
+					<date_deces>
+						<jour>-</jour>
+						<mois>-</mois>
+						<annee>-</annee>
+					</date_deces>
+				</acteur>
+			</acteurs>
+		</film>
+	</projection>
+	<projection>
+		<date>
+			<jour>10</jour>
+			<mois>05</mois>
+			<annee>2019</annee>
+		</date>
+		<salle>B23</salle>
+		<film>
+			<titre>Le magnifique projet de SER - Le retour</titre>
+			<synopsis>Après avoir lamentablement échoué leur projet de SER nos héros doivent à tout prix y arriver cette fois</synopsis>
+			<duree>60</duree>
+			<critiques>
+				<critique>
+					<texte>Prévisible</texte>
+					<note>1</note>
+				</critique>
+				<critique>
+					<texte>Null</texte>
+					<note>2</note>
+				</critique>
+				<critique>
+					<texte>C'est mieux maintenant</texte>
+					<note>5</note>
+				</critique>
+			</critiques>
+			<genres>
+				<genre>Comédie</genre>
+				<genre>Film d'auteur</genre>
+			</genres>
+			<mots_cles>
+				<mot_cle>SER2</mot_cle>
+				<mot_cle>lol</mot_cle>
+			</mots_cles>
+			<langages>
+				<audio>Russe</audio>
+				<sous_titres>
+					<sous_titre>Tchèque</sous_titre>
+					<sous_titre>Bulgare</sous_titre>
+				</sous_titres>
+			</langages>
+			<photo url="http://docr.iict.ch/imdb/SER2Affiche.jpg" />
+			<acteurs>
+				<acteur sexe="Feminin">
+					<nom>Jackini</nom>
+					<nom_naissance>David Jaquet</nom_naissance>
+					<biographie>Un acteur incroyablement beau</biographie>
+					<roles>
+						<role>
+							<nom>Principale</nom>
+							<place>1</place>
+						</role>
+					</roles>
+					<date_naissance>
+						<jour>08</jour>
+						<mois>05</mois>
+						<annee>1993</annee>
+					</date_naissance>
+					<date_deces>
+						<jour>10</jour>
+						<mois>04</mois>
+						<annee>2018</annee>
+					</date_deces>
+				</acteur>
+				<acteur sexe="Masculin">
+					<nom>Guidure</nom>
+					<nom_naissance>Vincent Guidoux</nom_naissance>
+					<biographie>Un humour sans égal</biographie>
+					<roles>
+						<role>
+							<nom>Principale</nom>
+							<place>2</place>
+						</role>
+						<role>
+							<nom>Secondaire</nom>
+							<place>3</place>
+						</role>
+					</roles>
+					<date_naissance>
+						<jour>26</jour>
+						<mois>03</mois>
+						<annee>1994</annee>
+					</date_naissance>
+					<date_deces>
+						<jour>-</jour>
+						<mois>-</mois>
+						<annee>-</annee>
+					</date_deces>
+				</acteur>
+				<acteur sexe="Feminin">
+					<nom>Melou</nom>
+					<nom_naissance>Johanna Melly</nom_naissance>
+					<biographie>Seule femme contre tous</biographie>
+					<roles>
+						<role>
+							<nom>Secondaire</nom>
+							<place>1</place>
+						</role>
+					</roles>
+					<date_naissance>
+						<jour>01</jour>
+						<mois>01</mois>
+						<annee>1992</annee>
+					</date_naissance>
+					<date_deces>
+						<jour>-</jour>
+						<mois>-</mois>
+						<annee>-</annee>
+					</date_deces>
+				</acteur>
+				<acteur sexe="Masculin">
+					<nom>Bifleur</nom>
+					<nom_naissance>Julien Biefer</nom_naissance>
+					<biographie>Dompteur de femme</biographie>
+					<roles>
+						<role>
+							<nom>Secondaire</nom>
+							<place>2</place>
+						</role>
+					</roles>
+					<date_naissance>
+						<jour>03</jour>
+						<mois>02</mois>
+						<annee>1991</annee>
+					</date_naissance>
+					<date_deces>
+						<jour>-</jour>
+						<mois>-</mois>
+						<annee>-</annee>
+					</date_deces>
+				</acteur>
+			</acteurs>
+		</film>
+	</projection>
+</projections>

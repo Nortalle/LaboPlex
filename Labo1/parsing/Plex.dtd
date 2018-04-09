@@ -1,0 +1,58 @@
+<!ELEMENT projections (projection)+ >
+<!ELEMENT projection (date, salle, film) >
+
+<!-- projection.date -->
+<!ELEMENT date (jour, mois, annee) >
+<!ELEMENT jour (#PCDATA) >
+<!ELEMENT mois (#PCDATA) >
+<!ELEMENT annee (#PCDATA) >
+
+<!-- projection.salle -->
+<!ELEMENT salle (#PCDATA) >
+
+<!-- projection.film -->
+<!ELEMENT film (titre, synopsis, duree, critiques, genres, mots_cles, langages, photo, acteurs) >
+<!ELEMENT titre (#PCDATA) >
+<!ELEMENT synopsis (#PCDATA) >
+<!ELEMENT duree (#PCDATA) >
+<!ELEMENT critiques (critique)+ >
+<!ELEMENT genres (genre)+ >
+<!ELEMENT mots_cles (mot_cle)+ >
+<!ELEMENT langages (audio, sous_titres) >
+<!ELEMENT photo EMPTY >
+<!ELEMENT acteurs (acteur)+ >
+
+<!-- projection.film.critiques -->
+<!ELEMENT critique (texte, note) >
+<!ELEMENT texte (#PCDATA) >
+<!ELEMENT note (#PCDATA) >
+
+<!-- projection.film.genres -->
+<!ELEMENT genre (#PCDATA) >
+
+<!-- projection.film.mots_cles -->
+<!ELEMENT mot_cle (#PCDATA) >
+
+<!-- projection.film.langages -->
+<!ELEMENT audio (#PCDATA) >
+<!ELEMENT sous_titres (sous_titre)+ >
+<!ELEMENT sous_titre (#PCDATA) >
+
+<!-- projection.film.photo -->
+<!ATTLIST photo url CDATA #REQUIRED >
+
+<!-- projection.film.acteurs -->
+<!ELEMENT acteur (nom, nom_naissance, biographie, roles, date_naissance, date_deces) >
+<!ATTLIST acteur sexe (Masculin|Feminin) #REQUIRED >
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT nom_naissance (#PCDATA) >
+<!ELEMENT biographie (#PCDATA) >
+<!ELEMENT roles (role)+ >
+<!ELEMENT date_naissance (jour, mois, annee) >
+<!ELEMENT date_deces (jour, mois, annee) >
+
+<!-- projection.film.acteurs.acteur.roles -->
+<!ELEMENT role (nom, place) >
+<!ELEMENT place (#PCDATA) >
+
+<!-- role.nom == acteur.nom; date de naissance/décès == date projection -->

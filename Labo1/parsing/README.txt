@@ -1,0 +1,1 @@
+﻿java Echo10AvecValidation ExemplePlex.xml
