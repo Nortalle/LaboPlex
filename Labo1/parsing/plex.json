@@ -1,0 +1,52 @@
+{
+  "projections": {
+    "projection": [
+      {
+        "date": {
+          "jour": "09",
+          "mois": "04",
+          "annee": "2018"
+        },
+        "film": {
+          "titre": "Le magnifique projet de SER",
+          "acteurs": {
+            "acteur": [
+              {
+                "nom_naissance": "David Jaquet"
+              },
+              {
+                "nom_naissance": "Vincent Guidoux"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "date": {
+          "jour": "10",
+          "mois": "05",
+          "annee": "2019"
+        },
+        "film": {
+          "titre": "Le magnifique projet de SER - Le retour",
+          "acteurs": {
+            "acteur": [
+              {
+                "nom_naissance": "David Jaquet"
+              },
+              {
+                "nom_naissance": "Vincent Guidoux"
+              },
+              {
+                "nom_naissance": "Johanna Melly"
+              },
+              {
+                "nom_naissance": "Julien Biefer"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
