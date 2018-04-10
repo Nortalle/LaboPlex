@@ -2,8 +2,8 @@
 **/cmake-build-debug/
 **/out/
 **/*.iml
-Labo2/SER_PLEX_Depart/PLEX-Admin/PLEX-Admin.iml
-Labo2/SER_PLEX_Depart/WFC-Interfaces/WFC-Interfaces.iml
+**/Labo2/SER_PLEX_Depart/PLEX-Admin/PLEX-Admin.iml
+**/Labo2/SER_PLEX_Depart/WFC-Interfaces/WFC-Interfaces.iml
 
 # Word temporary
 ~$*.doc*
