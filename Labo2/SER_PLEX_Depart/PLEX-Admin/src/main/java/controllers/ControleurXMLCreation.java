@@ -9,6 +9,7 @@ import java.io.OutputStreamWriter;
 import java.io.BufferedWriter;
 import java.io.StringWriter;
 import java.text.DecimalFormat;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Set;
 
@@ -45,7 +46,31 @@ public class ControleurXMLCreation {
 					long currentTime = System.currentTimeMillis();
 					try {
 						globalData = ormAccess.GET_GLOBAL_DATA();
-						mainGUI.setWarningMessage("Creation XML: Fonction non encore implementee");
+						try {
+							BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("xml.xml"), "UTF-8"));
+							out.write("<?xml version=\"1.0\" ?>\n");
+							out.write("<!DOCTYPE projections SYSTEM \"Plex.dtd\">\n");
+							out.write("<projections>\n");
+							for (Projection p:globalData.getProjections()){
+								out.write("\t<projection>\n");
+								{
+									out.write("\t\t<date>\n");
+									Calendar date = p.getDateHeure();
+									{
+										out.write("\t\t\t<jour>" + date.get(Calendar.DAY_OF_MONTH) + "</jour>\n");
+										out.write("\t\t\t<mois>" + date.get(Calendar.MONTH) + "</mois>\n");
+										out.write("\t\t\t<annee>" + date.get(Calendar.YEAR) + "</annee>\n");
+									}
+									out.write("\t\t<date>\n");
+								}
+
+								out.write("\t</projection>\n");
+							}
+							out.write("</projections>\n");
+							out.close();
+						} catch (Exception e) {
+							e.printStackTrace();
+						}
 					}
 					catch (Exception e){
 						mainGUI.setErrorMessage("Construction XML impossible", e.toString());
