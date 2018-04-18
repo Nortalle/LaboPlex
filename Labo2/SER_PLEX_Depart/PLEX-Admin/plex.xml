@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projections SYSTEM "Plex.dtd">
+<projections>
+  <projection>
+    <date>
+      <jour>18</jour>
+      <mois>3</mois>
+      <annee>2018</annee>
+      <heure>20</heure>
+      <minute>40</minute>
+    </date>
+    <salle>Flon 1</salle>
+    <film>
+      <titre>Tomorrow Never Dies</titre>
+      <synopsis>Agent 007, the unstoppable action hero must prevent a tremendous disaster ripped from tomorrow's headlines. Someone is pitting the world's superpowers against each other - and only James Bond can stop it. When a British warship is mysteriously destroyed in Chinese waters, the world teeters on the brink of World War III - until 007 zeros in on the true criminal mastermind. Bond's do-or-die mission takes him to Elliot Carver, a powerful media mogul who manipulates world events as easily as he changes headlines from his global media empire. After soliciting help from Carver's sexy wife, Paris, Bond join forces with a stunning yet lethal Chinese agent, Wai Lin, in a series of explosive chases, brutal confrontations and breathtaking escapes as they race to stop the presses on Carver's next planned news story: global pandemonium!</synopsis>
+      <duree>119</duree>
+      <critiques>
+        <critique>
+          <texte>bof</texte>
+          <note>3</note>
+        </critique>
+        <critique>
+          <texte>Epoustouflant</texte>
+          <note>5</note>
+        </critique>
+      </critiques>
+      <genres>
+        <genre>Thriller</genre>
+        <genre>Adventure</genre>
+        <genre>Action</genre>
+        <genre>Crime</genre>
+      </genres>
+      <mots_cles>
+        <mot_cle>woman-slaps-man</mot_cle>
+        <mot_cle>safecracker</mot_cle>
+        <mot_cle>gadget-car</mot_cle>
+        <mot_cle>eighteenth-part</mot_cle>
+        <mot_cle>navy</mot_cle>
+        <mot_cle>tuxedo</mot_cle>
+        <mot_cle>woman-spy</mot_cle>
+        <mot_cle>sabotage</mot_cle>
+        <mot_cle>1990s</mot_cle>
+        <mot_cle>heroin-addict</mot_cle>
+        <mot_cle>assassination-attempt</mot_cle>
+        <mot_cle>ship-wreck</mot_cle>
+        <mot_cle>tough-guy</mot_cle>
+        <mot_cle>missile</mot_cle>
+        <mot_cle>nuclear-threat</mot_cle>
+        <mot_cle>tv-news</mot_cle>
+        <mot_cle>man-with-glasses</mot_cle>
+        <mot_cle>action-hero</mot_cle>
+        <mot_cle>world-domination</mot_cle>
+        <mot_cle>bmw</mot_cle>
+        <mot_cle>bond-girl</mot_cle>
+        <mot_cle>blockbuster</mot_cle>
+        <mot_cle>exotic-locale</mot_cle>
+        <mot_cle>remote-control-car</mot_cle>
+        <mot_cle>damsel-in-distress</mot_cle>
+        <mot_cle>ship</mot_cle>
+        <mot_cle>asian-spy</mot_cle>
+        <mot_cle>terrorism</mot_cle>
+        <mot_cle>air-base</mot_cle>
+        <mot_cle>walther-p99</mot_cle>
+        <mot_cle>rocket-launcher</mot_cle>
+        <mot_cle>vietnam</mot_cle>
+        <mot_cle>motor-car-park</mot_cle>
+        <mot_cle>female-martial-artist</mot_cle>
+        <mot_cle>spy</mot_cle>
+        <mot_cle>tycoon</mot_cle>
+        <mot_cle>ex-girlfriend</mot_cle>
+        <mot_cle>shootout</mot_cle>
+        <mot_cle>car-chase</mot_cle>
+        <mot_cle>stealth-boat</mot_cle>
+        <mot_cle>british</mot_cle>
+        <mot_cle>automobile</mot_cle>
+        <mot_cle>secret-service</mot_cle>
+        <mot_cle>asian</mot_cle>
+        <mot_cle>london-england</mot_cle>
+        <mot_cle>adultery</mot_cle>
+        <mot_cle>exploding-car</mot_cle>
+        <mot_cle>murder</mot_cle>
+        <mot_cle>politics</mot_cle>
+        <mot_cle>motorcycle-stunt</mot_cle>
+        <mot_cle>media-tycoon</mot_cle>
+        <mot_cle>black-dress</mot_cle>
+        <mot_cle>sequel</mot_cle>
+        <mot_cle>explosion</mot_cle>
+        <mot_cle>brunette</mot_cle>
+        <mot_cle>motorcycle</mot_cle>
+        <mot_cle>admiral</mot_cle>
+        <mot_cle>assassin</mot_cle>
+        <mot_cle>asian-agent</mot_cle>
+        <mot_cle>martial-arts</mot_cle>
+        <mot_cle>terrorist-plot</mot_cle>
+        <mot_cle>exploding-plane</mot_cle>
+        <mot_cle>parking-garage</mot_cle>
+        <mot_cle>asian-woman</mot_cle>
+        <mot_cle>red-china</mot_cle>
+        <mot_cle>mercenary</mot_cle>
+        <mot_cle>afghanistan</mot_cle>
+        <mot_cle>funny-accent</mot_cle>
+        <mot_cle>gun-fu</mot_cle>
+        <mot_cle>official-james-bond-series</mot_cle>
+        <mot_cle>pistol</mot_cle>
+        <mot_cle>exploding-helicopter</mot_cle>
+        <mot_cle>old-flame</mot_cle>
+        <mot_cle>grenade-launcher</mot_cle>
+        <mot_cle>cult-film</mot_cle>
+        <mot_cle>revenge</mot_cle>
+        <mot_cle>red-chinese-agent</mot_cle>
+        <mot_cle>nuclear-weapons</mot_cle>
+        <mot_cle>chakra</mot_cle>
+        <mot_cle>chase</mot_cle>
+        <mot_cle>media-manipulation</mot_cle>
+        <mot_cle>female-agent</mot_cle>
+        <mot_cle>satellite</mot_cle>
+        <mot_cle>saigon-vietnam</mot_cle>
+        <mot_cle>sea</mot_cle>
+        <mot_cle>stealth</mot_cle>
+        <mot_cle>female-spy</mot_cle>
+        <mot_cle>terrorist</mot_cle>
+        <mot_cle>undercover</mot_cle>
+        <mot_cle>exploding-ship</mot_cle>
+        <mot_cle>cult-figure</mot_cle>
+        <mot_cle>ex-boyfriend-ex-girlfriend-relationship</mot_cle>
+        <mot_cle>british-navy</mot_cle>
+        <mot_cle>corpse</mot_cle>
+        <mot_cle>machine-gun</mot_cle>
+        <mot_cle>china</mot_cle>
+        <mot_cle>husband-wife-relationship</mot_cle>
+        <mot_cle>hamburg-germany</mot_cle>
+        <mot_cle>product-placement</mot_cle>
+        <mot_cle>woman-agent</mot_cle>
+        <mot_cle>oxford</mot_cle>
+        <mot_cle>remote-control</mot_cle>
+        <mot_cle>torpedo</mot_cle>
+        <mot_cle>british-intelligence</mot_cle>
+        <mot_cle>helicopter</mot_cle>
+        <mot_cle>gatling-gun</mot_cle>
+        <mot_cle>media</mot_cle>
+      </mots_cles>
+      <langages>
+        <langage>English</langage>
+        <langage>Danish</langage>
+        <langage>Cantonese</langage>
+        <langage>German</langage>
+        <langage>Mandarin</langage>
+      </langages>
+      <photo url="null" />
+      <acteurs>
+        <acteur sexe="MASCULIN">
+          <nom>Llewelyn, Desmond</nom>
+          <nom_naissance>Llewelyn, Desmond Wilkinson</nom_naissance>
+          <biographie>Desmond Llewelyn was born in South Wales in 1914, the son of a coal mining engineer. In high school, he worked as a stagehand in the school's productions and then picked up sporadic small parts. His family would not give up their effort to prevent him from a life on stage, so an uncle who was a high ranking police officer arranged for Llewelyn to take the department's physical exam. "Thank God, I flunked the eye test, and they wouldn't take me. I suspect the inspector had a hangover because he also failed this other chap I knew, who went out the same day and passed the physical for the Royal Navy, which had a lot tougher test." After failing the police exam, Llewelyn thought about becoming a minister, realizing after a week-long retreat of quiet and meditation that the ministry "was definitely not for me." Llewelyn persevered in his acting quest, and was accepted to the Royal Academy for the Dramatic Arts in the mid 1930s. The outbreak of World War II in September 1939, halted his acting career, and Llewelyn was commissioned as a second lieutenant in the British army. He was assigned to the Royal Welsh Fusiliers and was sent to France in early 1940. In a short time, his regiment was fighting the Germans, and Llewelyn's company was holding off a division of German tanks. Llewelyn explained that "eventually, the tanks broke through and many of us jumped into this canal and started swimming down it to the other side, figuring that our chaps were still over there. But the Germans were the only ones there," and Llewelyn was captured, and held as a prisoner of war for five years. At one prison camp, the prisoners had dug a tunnel and were planning to escape the next morning. Llewelyn was down in the tunnel doing some maintenance work in preparation of the escape when the Germans found out about the tunnel and caught him down in it, a crime that earned Llewelyn 10 days in solitary, which Llewelyn called "a blessing of sorts. After spending every day of several years sleeping in a room with 50 other people, the quiet and privacy was rather nice." After the war, Llewelyn returned to London and revived his career, eventually being cast as his trademark Q in _From Russia with Love (1963)_ (qv). Since 1963, Llewelyn has appeared as Q in every Eon Productions Bond film, except _Live and Let Die (1973)_ (qv). Llewelyn was omitted from _Live and Let Die (1973)_ (qv) because producers 'Harry Saltzman' (qv) and 'Albert R. Broccoli' (qv) felt that too much was being made of the gadgets and they would play it down. Llewelyn said he "was quite disappointed" at being left out of _Live and Let Die (1973)_ (qv). Fans, however, missed Q, and Llewelyn got a call shortly after the release of _Live and Let Die (1973)_ (qv) telling him that he would be in the next Bond film, _The Man with the Golden Gun (1974)_ (qv). Llewelyn, who admits that his mechanical abilities in real life are virtually nil, is geared up for the next Bond movie. "I'd love to be in the next one," Llewelyn said. "Of course, if you consider my age, they should have put me out to grass a long time ago."</biographie>
+          <roles>
+            <role>
+              <nom>Q</nom>
+              <place>10</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>12</jour>
+            <mois>8</mois>
+            <annee>1914</annee>
+          </date_naissance>
+          <date_deces>
+            <jour>19</jour>
+            <mois>11</mois>
+            <annee>1999</annee>
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Young, Nina</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Tamara Steel</nom>
+              <place>17</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1966</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Bowen, Christopher</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Cmdr. Richard Day - HMS Devonshire</nom>
+              <place>24</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Torrens, Pip</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Captain - HMS Bedford</nom>
+              <place>31</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>2</jour>
+            <mois>5</mois>
+            <annee>1960</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Coyle, Brendan</nom>
+          <nom_naissance>Coyle, David</nom_naissance>
+          <biographie>Brendan Coyle was born in Corby, Northamptonshire to an Irish father and Scottish mother; his parents moved to Corby from County Tyrone, Ireland. Brendan holds Irish citizenship and has previously lived in Dublin and London. However, according to a video clip from the site for "Rockface" he resides in Norfolk.  Brendan is also the great nephew of footballing (i.e. soccer) legend Sir Matt Busby of Manchester United fame.  Brendan trained at drama school in Dublin, founded in the late 1960s as the Focus Theatre, was co-founded by his aunt Mary Elizabeth Burke-Kennedy. Brendan started there in 1981 and then received a scholarship to Mountview Theatre School in England in 1983. He has directed at least two plays at Mountview since graduating from there.  Brendan has done a number of stage, television, and movie productions, including the play "The Weir" for which he won an Olivier Award for Best Supporting Performance award for his part as the bartender, Brendan. He continues to work on stage, in film and on television.</biographie>
+          <roles>
+            <role>
+              <nom>Leading Seaman - HMS Bedford</nom>
+              <place>35</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>2</jour>
+            <mois>11</mois>
+            <annee>1963</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Alexander, Bruce</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Captain - HMS Chester</nom>
+              <place>22</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Bond, Samantha</nom>
+          <nom_naissance>Bond, Samantha Jane</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Miss Moneypenny</nom>
+              <place>11</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>27</jour>
+            <mois>10</mois>
+            <annee>1961</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Napier, Hugo</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Jeff Hobbs</nom>
+              <place>41</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>18</jour>
+            <mois>5</mois>
+            <annee>1946</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Hawkins, Andrew</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Lt. Cmdr. Peter Hume - HMS Devonshire</nom>
+              <place>25</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Butler, Gerard</nom>
+          <nom_naissance>Butler, Gerard James</nom_naissance>
+          <biographie>Born in Paisley, Scotland, to Margaret and Edward Butler, Gerard Butler was raised, along with his older brother and sister, in his hometown of Paisley, Scotland. He also spent some of his youth in Canada. His parents divorced when he was a child, and he and his siblings were raised primarily by their mother, who later remarried. He had no contact with his father between the ages of two and 16 years old, after which time they became close. His father passed away when Gerard was in his early 20s. Butler went on to attend Glasgow University, where he studied to be a lawyer/solicitor. He was president of the school's law society thanks to his outgoing personality and great social skills.  His acting career began when he was approached in a London coffee shop by actor 'Steven Berkoff (I)' (qv), who later appeared alongside Butler in _Attila (2001/I) (TV)_ (qv), who gave him a role in a stage production of "Coriolanus". After that, Butler decided to give up law for acting. He was cast as 'Ewan McGregor' (qv)'s character "Renton" in the stage adaptation of [i]Trainspotting[/i]. His film debut was as 'Billy Connolly (I)' (qv)'s younger brother in _Mrs Brown (1997)_ (qv). While filming the movie in Scotland, he was enjoying a picnic with his mother near the River Tay when they heard the shouts of a young boy, who had been swimming with a friend, who was in some trouble. Butler jumped in and saved the young boy from drowning. He received a Certificate of Bravery from the Royal Humane Society. He felt he only did what anyone in the situation would have done.  His film career continued with small roles, first in the "James Bond" movie, _Tomorrow Never Dies (1997)_ (qv), and then 'Russell Mulcahy' (qv)'s _Tale of the Mummy (1998)_ (qv). In 2000, Butler was cast in two breakthrough roles, the first being "Attila the Hun" in the USA Network mini-series, _Attila (2001/I) (TV)_ (qv). The film's producers wanted a known actor to play the part but kept coming back to Butler's screen tests and decided he was their man. He had to lose the thick Scottish accent, but managed well. Around the time "Attila" was being filmed, casting was in progress for 'Wes Craven' (qv)'s new take on the "Dracula" legacy. Also wanting a known name, Butler wasn't much of a consideration, but his unending tenacity drove him to hounding the producers. Eventually, he sent them a clip of his portrayal of "Attila". Evidently, they saw something because _Dracula 2000 (2000)_ (qv) was cast in the form of Butler. Attila's producers, thinking that his big-screen role might help with their own film's ratings, finished shooting a little early so he could get to work on _Dracula 2000 (2000)_ (qv). Following these two roles, Butler developed quite a fan base, an Internet site and began appearing on lists everywhere.  Since then, he has appeared in _Reign of Fire (2002)_ (qv) as "Creedy" and _Lara Croft Tomb Raider: The Cradle of Life (2003)_ (qv) as "Terry Sheridan", alongside 'Angelina Jolie' (qv). The role that garnered him the most attention from both moviegoers and movie makers, alike, was that of "Andre Marek" in the big-screen adaptation of 'Michael Crichton' (qv)'s novel, _Timeline (2003)_ (qv). Butler played an archaeologist who was sent back in time with a team of students to rescue a colleague. Last year, he appeared in 'Andrew Lloyd Webber' (qv)'s musical, _The Phantom of the Opera (2004)_ (qv), playing the title character in the successful adaptation of the stage musical. It was a role that brought him much international attention. Other projects include _Dear Frankie (2004)_ (qv), _The Game of Their Lives (2005)_ (qv) and _Beowulf &amp; Grendel (2005)_ (qv).  In 2007, he starred as Spartan "King Leonidas" in the Warner Bros. production _300 (2006)_ (qv), based on the 'Frank Miller (II)' (qv) graphic novel, and _Butterfly on a Wheel (2007)_ (qv), co-starring 'Pierce Brosnan' (qv) and 'Maria Bello' (qv), which aired on network TV under the title, "Shattered". He most recently starred in _P.S. I Love You (2007)_ (qv), with Academy Award-winner 'Hilary Swank' (qv).  In 2007, he appeared in _Nim's Island (2008)_ (qv) and _RocknRolla (2008)_ (qv), and completed the new 'Mark Neveldine' (qv) / 'Brian Taylor (V)' (qv) film, _Gamer (2009)_ (qv). His next films included _The Ugly Truth (2009)_ (qv), co-starring 'Katherine Heigl' (qv), which began filming in April 2008, _The Bounty Hunter (2010/I)_ (qv), _How to Train Your Dragon (2010)_ (qv), _Chasing Mavericks (2012)_ (qv) and _Olympus Has Fallen (2013)_ (qv). Butler is also a relative of rising animator and film director 'Mark Flood (III)' (qv).</biographie>
+          <roles>
+            <role>
+              <nom>Leading Seaman - HMS Devonshire</nom>
+              <place>28</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>13</jour>
+            <mois>10</mois>
+            <annee>1969</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Matthews, Al</nom>
+          <nom_naissance />
+          <biographie>Folk singer and musical performer who worked professionally while living in England. He later turned to acting, but continues to write and sing. Matthews is noted for having made two significant historical firsts. While on combat duty during the Vietnam War, Matthews became the first black Marine to be meritoriously promoted to the rank of Sergeant (E-5). Williams was also the first "black voice" on England's national station, 'Radio 1.'</biographie>
+          <roles>
+            <role>
+              <nom>Master Sergeant 3</nom>
+              <place>20</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>21</jour>
+            <mois>10</mois>
+            <annee>1942</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Ashton, David</nom>
+          <nom_naissance>Scott, David</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>First Sea Lord</nom>
+              <place>36</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Saxon, Rolf</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Philip Jones</nom>
+              <place>42</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1955</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>McCarthy, Eoin</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Yeoman - HMS Bedford</nom>
+              <place>34</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1963</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Bonneville, Hugh</nom>
+          <nom_naissance>Williams, Hugh Richard Bonneville</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Air Warfare Officer - HMS Bedford</nom>
+              <place>32</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>10</jour>
+            <mois>10</mois>
+            <annee>1963</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Rigby, Terence</nom>
+          <nom_naissance>Rigby, Terence Christopher</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>General Bukharin</nom>
+              <place>15</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>2</jour>
+            <mois>0</mois>
+            <annee>1937</annee>
+          </date_naissance>
+          <date_deces>
+            <jour>10</jour>
+            <mois>7</mois>
+            <annee>2008</annee>
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Otto, Götz</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Stamper</nom>
+              <place>6</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>15</jour>
+            <mois>9</mois>
+            <annee>1967</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Brattan, Laura</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Staff Officer #2</nom>
+              <place>38</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Wang, Vincent</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>MiG Pilot</nom>
+              <place>43</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Salmon, Colin</nom>
+          <nom_naissance />
+          <biographie>Colin Salmon is one of Britain's most renowned actors. With a bold voice and posture, Colin makes his characters a favorite among audiences for every role he plays. He made his feature debut as Sgt. Robert Oswald in the British mega-hit mini-series _"Prime Suspect 2" (1992)_ (qv), which gave him much acclaim among British audiences. He has a recurring role in the James Bond films as Charles Robinson, M's Chief of Staff. He has also appeared as the Commander James "One" Shade in the video game-to-movie _Resident Evil (2002)_ (qv) and played Oonu, squad leader of the Skybax in the mini-series _"Dinotopia" (2002/I)_ (qv) . His other film credits include _Captives (1994)_ (qv), _The Wisdom of Crocodiles (1998)_ (qv), _Fanny and Elvis (1999)_ (qv), _Mind Games (2001) (TV)_ (qv), and _My Kingdom (2001)_ (qv). His theater credits include Ariadne at London's Queen Elizabeth Hall.</biographie>
+          <roles>
+            <role>
+              <nom>Chief of Staff Charles Robinson</nom>
+              <place>12</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>6</jour>
+            <mois>11</mois>
+            <annee>1962</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Watkins, Jason</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Principal Warfare Officer - HMS Bedford</nom>
+              <place>33</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>30</jour>
+            <mois>6</mois>
+            <annee>1966</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Dench, Judi</nom>
+          <nom_naissance>Dench, Judith Olivia</nom_naissance>
+          <biographie>Attended Mount School in York, and studied at the Central School of Speech and Drama. She has performed with Royal Shakespeare Company, the National Theatre, and at Old Vic Theatre. She is a ten-time BAFTA winner including Best Actress in a Comedy Series for _"A Fine Romance" (1981)_ (qv) in which she appeared with her husband, 'Michael Williams (I)' (qv), and Best Supporting Actress in _A Handful of Dust (1988)_ (qv) and _A Room with a View (1985)_ (qv) . She received an ACE award for her performance in the television series _Mr. and Mrs. Edgehill (1985) (TV)_ (qv). She was made an Officer of the Order of the British Empire in 1970, and was created Dame of Order of the British Empire in 1988.</biographie>
+          <roles>
+            <role>
+              <nom>M</nom>
+              <place>9</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>9</jour>
+            <mois>11</mois>
+            <annee>1934</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Cameron-Blakey, Nadia</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Beth Davidson</nom>
+              <place>39</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Fellowes, Julian</nom>
+          <nom_naissance>Fellowes, Julian Alexander</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Minister of Defence</nom>
+              <place>14</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>17</jour>
+            <mois>7</mois>
+            <annee>1949</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Green, Anthony</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Firing Officer - HMS Chester</nom>
+              <place>23</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>4</jour>
+            <mois>3</mois>
+            <annee>1970</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Rhind-Tutt, Julian</nom>
+          <nom_naissance>Rhind-Tutt, Julian Alistair</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Yeoman - HMS Devonshire</nom>
+              <place>27</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>20</jour>
+            <mois>6</mois>
+            <annee>1968</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Kwok, Philip</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>General Chang</nom>
+              <place>44</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>21</jour>
+            <mois>9</mois>
+            <annee>1951</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Spalding, Mark</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Stealth Boat Captain</nom>
+              <place>21</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1960</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Yeoh, Michelle</nom>
+          <nom_naissance>Chu-Kheng, Yeoh</nom_naissance>
+          <biographie>Born as Yang Zi Chong in the mining town of Ipoh in West Malaysia in the lunar year of the Tiger, she spoke English and Malay before Chinese. A ballet dancer since age 4, she moved to London, England to study at the Royal Academy as a teenager. After a brief dance career, she won the Miss Malaysia beauty pageant title in her native country and the Miss Moomba beauty pageant title in Melbourne, Australia in the early 1980s. Her first on camera work was a 1984 commercial with martial arts star 'Jackie Chan (I)' (qv). In 1985, she began making action movies with D&amp;B Films of Hong Kong. She was first billed as Michelle Khan, then later, Michelle Yeoh. Never a trained martial artist, she relied on her dance discipline and her on-set trainers to prepare for her martial arts action scenes.  She uses many dance moves in her films. She still does most of her own stunts and has been injured many times. Ironically, she still cannot read Chinese and she has to have Chinese script read to her. In 1988, she married wealthy D&amp;B Films executive 'Dickson Poon' (qv) and retired from acting. Even though they divorced in 1992, she is close to Poon's second wife and a godmother to Poon's daughter. When she returned to acting, she became very popular to Chinese audiences and she became known to western audiences through her co-starring roles in the James Bond film _Tomorrow Never Dies (1997)_ (qv) and in the phenomenally successful _Wo hu cang long (2000)_ (qv) aka Crouching Tiger, Hidden Dragon' directed by 'Ang Lee' (qv). She turned down a role in a sequel to _The Matrix (1999)_ (qv).  She has her own production company, Mythical Films and has trained with the Shen Yang Acrobatic team for her role in _Tian mai zhuan qi (2002)_ (qv), an English language film she is both starring in and producing. She hopes to use her company to discover and nurture new filmmaking talent. She also wants to act in roles that combine both action and deeper spiritual themes.</biographie>
+          <roles>
+            <role>
+              <nom>Wai Lin</nom>
+              <place>3</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>6</jour>
+            <mois>7</mois>
+            <annee>1962</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Pryce, Jonathan</nom>
+          <nom_naissance>Price, John</nom_naissance>
+          <biographie>Jonathan Pryce was born on June 1, 1947, in Holywell, Wales. His father, named Isaac Price, was a coal miner, who died in 1976. His mother, named Margaret Ellen (nee Williams), was a retail cashier. He left the home of his parents at age 16 to attend an art school, where he became interested in drama. At some point he changed the spelling of his last name from Price to Pryce. He studied acting on a scholarship at the Royal Academy of Dramatic Art in London. After graduation from RADA, he joined the Liverpool Everyman Theatre and eventually became its Artistic Director.  In the 1970s Pryce established himself on the London stage with appearances in 'The Taming of the Shrew', 'Hamlet', and 'Measure for Measure' among other plays. He won the 1977 Tony Award for his Broadway debut in 'Comedians', for which he also earned the 1977 Theatre World Award and the 1977 nomination for Drama Desk Outstanding Actor Award. Pryce earned his second Tony Award 15 years later for the role as "The Engineer", a half-Vietnamese/half French pimp in 'Miss Saigon'. Pryce created the role in the original London production and agreed to reprise the role on Broadway in a transplant of the same production. Despite controversy over his appearance -- the actors union decried the long-standing practice of hiring white actors to play Asian or Eurasian characters, especially given the paucity of roles for Asian characters, and it also objected to the producer's refusal to even audition any Asian actors -- he gave a brilliant performance.  In 1976 Pryce made his big screen debut in _Voyage of the Damned (1976)_ (qv). But it wasn't until 1983 that he made a strong impression with his scary performance as a freaky manipulative Mr. Dark in Ray Bradbury's _Something Wicked This Way Comes (1983)_ (qv). Pryce shot to fame with _Brazil (1985)_ (qv) and his role as Sam Lowry, a technocrat trying to correct an error caused by a bug and himself becomes entangled in psychopathic bureaucracy eventually becoming an enemy of the state. He also filled such strong and authoritative roles, as president Juan Peron opposite Madonna in _Evita (1996)_ (qv), then co-starred opposite Pierce Brosnan as Elliot Carver, the evil megalomaniac media mogul in the 18th Bond film, _Tomorrow Never Dies (1997)_ (qv).  Pryce's versatility and multifaceted talent rarely had a chance to take him beyond playing freaks and villains in film, an imposed forte which he, however, managed to overcome in his numerous stage performances and in a few film and TV works. He went on playing a range of characters marked with sophistication and depth, such as his subtle and nuanced portrayal of author Lytton Strachey in _Carrington (1995)_ (qv), for which he won the Best Actor Award at Cannes. Pryce also shone in musicals 'My Fair Lady' and 'Oliver' to name just a few. Pryce made numerous works for television ranging from costume dramas to comedy, and from narrations to singing. In January 2006, he replaced John Lithgow as Lawrence Jameson in the acclaimed musical version of 'Dirty Rotten Scoundrels'. He appeared as the timid Jamaican Governor Wetherby Swann in _Pirates of the Caribbean: The Curse of the Black Pearl (2003)_ (qv), and the sequel _Pirates of the Caribbean: Dead Man's Chest (2006)_ (qv), and the third installment of the Pirates franchise, _Pirates of the Caribbean: At World's End (2007)_ (qv).  Jonathan Pryce has been with his partner, actress Kate Fahy, since 1974 when they met at the Everyman Theatre Liverpool Company, though they have never married. They have two sons, Patrick (born 1983) and Gabriel (born 1986), and one daughter, Phoebe (born 1990). Pryce and Fahy also co-starred in the 2004 production of 'The Goat, or Who Is Sylvia?'. Fahy and Pryce reside with their family in England.</biographie>
+          <roles>
+            <role>
+              <nom>Elliot Carver</nom>
+              <place>2</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>5</mois>
+            <annee>1947</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Brosnan, Pierce</nom>
+          <nom_naissance>Brosnan, Pierce Brendan</nom_naissance>
+          <biographie>Pierce Brosnan was born in Navan, County Meath, Ireland, and lived in Navan, County Meath, until he moved to England, UK, at an early age (thus explaining his ability to play men from both backgrounds convincingly). His father left the household when Pierce was a child and although reunited later in life, the two have never had a close relationship. His most popular role is that of British secret agent James Bond. The death, in 1991, of 'Cassandra Harris (I)' (qv), his wife of eleven years, left him with three children - Christopher and Charlotte from Cassandra's first marriage and Sean from their marriage. Since her death, he has had two children with his second wife, 'Keely Shaye Smith' (qv).</biographie>
+          <roles>
+            <role>
+              <nom>James Bond</nom>
+              <place>1</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>16</jour>
+            <mois>4</mois>
+            <annee>1953</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Jay, Ricky</nom>
+          <nom_naissance>Potash, Richard Jay</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Henry Gupta</nom>
+              <place>5</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1948</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Barker, Adam</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Sonar Operator - HMS Devonshire</nom>
+              <place>29</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1966</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Scott-Masson, William</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Staff Officer #1</nom>
+              <place>37</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Hatcher, Teri</nom>
+          <nom_naissance>Hatcher, Teri Lynn</nom_naissance>
+          <biographie>Teri Lynn Hatcher was born in Palo Alto, California, USA, as the only child of Owen and Esther Hatcher, and grew up in nearby Sunnyvale, California. Her father is a nuclear physicist and her mother is a computer programmer. She spent her childhood dancing and fishing with her father. While at Fremont High School, she was captain of the Featherettes, a dance team that had the look of regular cheerleaders, with the exception of the large headdresses they wore. She was voted "Most Likely to Become a _"Solid Gold" (1980)_ (qv) Dancer" by her graduating class in 1982. Hatcher studied acting at the American Conservatory Theater in San Francisco while taking a degree course in mathematics and engineering at De Anza College in Cupertino, California. She became a member of the 1984 Gold Rush, the name of the professional cheer leading squad of the American football San Francisco 49ers.  Hatcher went to Hollywood to lend moral support to a friend during a open casting call. She, however, auditioned and won the role of the singing and dancing mermaid for the television series _"The Love Boat" (1977)_ (qv). She went on to play "Penny Parker," a ditsy but sweet-hearted struggling actress on _"MacGyver" (1985)_ (qv). When that show ended, she auditioned for and won the role of smart and savvy "Lois Lane" on _"Lois &amp; Clark: The New Adventures of Superman" (1993)_ (qv), saying that she didn't want to be stuck with the pretty airhead image she had acquired as "Penny Parker."  She married actor 'Jon Tenney' (qv) in May 1994. She gave birth to daughter 'Emerson Tenney' (qv) on November 10, 1997. Later, she signed to play "Sally Bowles" in a road tour of Cabaret. The tour debuted in Los Angeles on March 2, 1999. Her final show was on September 4, 1999. She stayed out of the industry for a little bit before nabbing a role on the darkly comedic soap opera _"Desperate Housewives" (2004)_ (qv), which could have been a huge mistake. The show turned out to be a mega-hit, which skyrocketed Hatcher to the A-list. Her portrayal of a divorced mother, "Susan Mayer," was consistently named as America's favorite "Desperate Housewife." Hatcher won both a Golden Globe for Lead Actress in a Comedy Series and the SAG Award for Female Actor in a Comedy Series before the show's first season was even over.</biographie>
+          <roles>
+            <role>
+              <nom>Paris Carver</nom>
+              <place>4</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>8</jour>
+            <mois>11</mois>
+            <annee>1964</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Palmer, Geoffrey</nom>
+          <nom_naissance>Palmer, Geoffrey Dyson</nom_naissance>
+          <biographie>Born in London on June 4th, 1927, Geoffrey Palmer worked in an imports office and then as an accountant before his girlfriend persuaded him to join the local amateur dramatics society. Eventually he became assistant stage manager at Croydon's Grand Theatre, and then spent several years touring with rep. His first roles on TV came in comedy series such as those of Harry Worth and Arthur Askey. He is now a familiar face on British television.</biographie>
+          <roles>
+            <role>
+              <nom>Admiral Roebuck</nom>
+              <place>13</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>4</jour>
+            <mois>5</mois>
+            <annee>1927</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Shaun, Dominic</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Lieutenant Commander - HMS Devonshire</nom>
+              <place>26</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Baker, Joe Don</nom>
+          <nom_naissance />
+          <biographie>Tall, broad shouldered character actor with Texan drawl first appeared in support in several Western vehicles both on TV and the cinema in the mid 1960s. Got himself noticed playing Steve McQueen's younger brother in _Junior Bonner (1972)_ (qv), and then scored the lead role of Buford Pusser (!) in the unexpected hit _Walking Tall (1973)_ (qv), an allegedly true tale about a Southern sheriff confronting corruption &amp; gangsters with a large wooden club and a mean attitude. Followed it up by playing a sadistic hit man called Molly, in Don Siegel's bank heist drama _Charley Varrick (1973)_ (qv). Joe Don Baker's next few films were rather forgettable until he landed the role of police detective Earl Eischied in _To Kill a Cop (1978) (TV)_ (qv)....which led him into reprising the same character in the short lived TV series _"Eischied" (1979)_ (qv). Since then he has proved he is also quite adept at taking on comedy roles, as well as picking up plenty of work playing lawmen, military men, politicians etc. Keep your eye open for him as a nosy police chief in _Fletch (1985)_ (qv), a meglomanical general in _The Living Daylights (1987)_ (qv), as a redneck father in _Mars Attacks! (1996)_ (qv), and as intelligence operative Jack Wade in the 007 films _Tomorrow Never Dies (1997)_ (qv) and _GoldenEye (1995)_ (qv).</biographie>
+          <roles>
+            <role>
+              <nom>Jack Wade</nom>
+              <place>7</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>12</jour>
+            <mois>1</mois>
+            <annee>1936</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Thomsen, Cecilie</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Professor Inga Bergstrom</nom>
+              <place>16</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>29</jour>
+            <mois>9</mois>
+            <annee>1974</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Deckers, Daphne</nom>
+          <nom_naissance>Deckers, Daphne Muriël</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>PR Lady</nom>
+              <place>18</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>10</jour>
+            <mois>10</mois>
+            <annee>1968</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Boo Khoo, Ian</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Vietnamese Villager</nom>
+              <place>9223372036854775807</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>26</jour>
+            <mois>5</mois>
+            <annee>1982</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Stinton, Colin</nom>
+          <nom_naissance />
+          <biographie>Immigrated to the United States in 1952. Lived in a trailer -- traveling throughout the country with his family before settling in Kansas City, then suburban Chicago. Educated at Northern Illinois University. Began his professional career in Chicago, where he helped found The Theatre Building, then moved to New York in 1978. Now lives in London and Chicago.</biographie>
+          <roles>
+            <role>
+              <nom>Dr. Dave Greenwalt</nom>
+              <place>19</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>10</jour>
+            <mois>2</mois>
+            <annee>1947</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Ross, Liza</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Mary Golson</nom>
+              <place>40</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Byrne, Michael</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Admiral Kelly - HMS Bedford</nom>
+              <place>30</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>7</jour>
+            <mois>10</mois>
+            <annee>1943</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Schiavelli, Vincent</nom>
+          <nom_naissance>Schiavelli, Vincent Andrew</nom_naissance>
+          <biographie>Vincent Schiavelli, selected in 1997 by Vanity Fair as one of the best character actors in America, had made over 120 film and television appearances. He studied acting at NYU's Theatre Program. Aside from his acting career, Vincent was the author of three cookbooks, and has written numerous articles on food for magazines and newspapers. In 2001, he received the 'James Beard (II)' (qv) Journalism Award.</biographie>
+          <roles>
+            <role>
+              <nom>Dr. Kaufman</nom>
+              <place>8</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>11</jour>
+            <mois>10</mois>
+            <annee>1948</annee>
+          </date_naissance>
+          <date_deces>
+            <jour>26</jour>
+            <mois>11</mois>
+            <annee>2005</annee>
+          </date_deces>
+        </acteur>
+      </acteurs>
+    </film>
+  </projection>
+  <projection>
+    <date>
+      <jour>18</jour>
+      <mois>3</mois>
+      <annee>2018</annee>
+      <heure>20</heure>
+      <minute>40</minute>
+    </date>
+    <salle>Flon 1</salle>
+    <film>
+      <titre>Tomorrow Never Dies</titre>
+      <synopsis>Agent 007, the unstoppable action hero must prevent a tremendous disaster ripped from tomorrow's headlines. Someone is pitting the world's superpowers against each other - and only James Bond can stop it. When a British warship is mysteriously destroyed in Chinese waters, the world teeters on the brink of World War III - until 007 zeros in on the true criminal mastermind. Bond's do-or-die mission takes him to Elliot Carver, a powerful media mogul who manipulates world events as easily as he changes headlines from his global media empire. After soliciting help from Carver's sexy wife, Paris, Bond join forces with a stunning yet lethal Chinese agent, Wai Lin, in a series of explosive chases, brutal confrontations and breathtaking escapes as they race to stop the presses on Carver's next planned news story: global pandemonium!</synopsis>
+      <duree>119</duree>
+      <critiques>
+        <critique>
+          <texte>bof</texte>
+          <note>3</note>
+        </critique>
+        <critique>
+          <texte>Epoustouflant</texte>
+          <note>5</note>
+        </critique>
+      </critiques>
+      <genres>
+        <genre>Thriller</genre>
+        <genre>Adventure</genre>
+        <genre>Action</genre>
+        <genre>Crime</genre>
+      </genres>
+      <mots_cles>
+        <mot_cle>woman-slaps-man</mot_cle>
+        <mot_cle>safecracker</mot_cle>
+        <mot_cle>gadget-car</mot_cle>
+        <mot_cle>eighteenth-part</mot_cle>
+        <mot_cle>navy</mot_cle>
+        <mot_cle>tuxedo</mot_cle>
+        <mot_cle>woman-spy</mot_cle>
+        <mot_cle>sabotage</mot_cle>
+        <mot_cle>1990s</mot_cle>
+        <mot_cle>heroin-addict</mot_cle>
+        <mot_cle>assassination-attempt</mot_cle>
+        <mot_cle>ship-wreck</mot_cle>
+        <mot_cle>tough-guy</mot_cle>
+        <mot_cle>missile</mot_cle>
+        <mot_cle>nuclear-threat</mot_cle>
+        <mot_cle>tv-news</mot_cle>
+        <mot_cle>man-with-glasses</mot_cle>
+        <mot_cle>action-hero</mot_cle>
+        <mot_cle>world-domination</mot_cle>
+        <mot_cle>bmw</mot_cle>
+        <mot_cle>bond-girl</mot_cle>
+        <mot_cle>blockbuster</mot_cle>
+        <mot_cle>exotic-locale</mot_cle>
+        <mot_cle>remote-control-car</mot_cle>
+        <mot_cle>damsel-in-distress</mot_cle>
+        <mot_cle>ship</mot_cle>
+        <mot_cle>asian-spy</mot_cle>
+        <mot_cle>terrorism</mot_cle>
+        <mot_cle>air-base</mot_cle>
+        <mot_cle>walther-p99</mot_cle>
+        <mot_cle>rocket-launcher</mot_cle>
+        <mot_cle>vietnam</mot_cle>
+        <mot_cle>motor-car-park</mot_cle>
+        <mot_cle>female-martial-artist</mot_cle>
+        <mot_cle>spy</mot_cle>
+        <mot_cle>tycoon</mot_cle>
+        <mot_cle>ex-girlfriend</mot_cle>
+        <mot_cle>shootout</mot_cle>
+        <mot_cle>car-chase</mot_cle>
+        <mot_cle>stealth-boat</mot_cle>
+        <mot_cle>british</mot_cle>
+        <mot_cle>automobile</mot_cle>
+        <mot_cle>secret-service</mot_cle>
+        <mot_cle>asian</mot_cle>
+        <mot_cle>london-england</mot_cle>
+        <mot_cle>adultery</mot_cle>
+        <mot_cle>exploding-car</mot_cle>
+        <mot_cle>murder</mot_cle>
+        <mot_cle>politics</mot_cle>
+        <mot_cle>motorcycle-stunt</mot_cle>
+        <mot_cle>media-tycoon</mot_cle>
+        <mot_cle>black-dress</mot_cle>
+        <mot_cle>sequel</mot_cle>
+        <mot_cle>explosion</mot_cle>
+        <mot_cle>brunette</mot_cle>
+        <mot_cle>motorcycle</mot_cle>
+        <mot_cle>admiral</mot_cle>
+        <mot_cle>assassin</mot_cle>
+        <mot_cle>asian-agent</mot_cle>
+        <mot_cle>martial-arts</mot_cle>
+        <mot_cle>terrorist-plot</mot_cle>
+        <mot_cle>exploding-plane</mot_cle>
+        <mot_cle>parking-garage</mot_cle>
+        <mot_cle>asian-woman</mot_cle>
+        <mot_cle>red-china</mot_cle>
+        <mot_cle>mercenary</mot_cle>
+        <mot_cle>afghanistan</mot_cle>
+        <mot_cle>funny-accent</mot_cle>
+        <mot_cle>gun-fu</mot_cle>
+        <mot_cle>official-james-bond-series</mot_cle>
+        <mot_cle>pistol</mot_cle>
+        <mot_cle>exploding-helicopter</mot_cle>
+        <mot_cle>old-flame</mot_cle>
+        <mot_cle>grenade-launcher</mot_cle>
+        <mot_cle>cult-film</mot_cle>
+        <mot_cle>revenge</mot_cle>
+        <mot_cle>red-chinese-agent</mot_cle>
+        <mot_cle>nuclear-weapons</mot_cle>
+        <mot_cle>chakra</mot_cle>
+        <mot_cle>chase</mot_cle>
+        <mot_cle>media-manipulation</mot_cle>
+        <mot_cle>female-agent</mot_cle>
+        <mot_cle>satellite</mot_cle>
+        <mot_cle>saigon-vietnam</mot_cle>
+        <mot_cle>sea</mot_cle>
+        <mot_cle>stealth</mot_cle>
+        <mot_cle>female-spy</mot_cle>
+        <mot_cle>terrorist</mot_cle>
+        <mot_cle>undercover</mot_cle>
+        <mot_cle>exploding-ship</mot_cle>
+        <mot_cle>cult-figure</mot_cle>
+        <mot_cle>ex-boyfriend-ex-girlfriend-relationship</mot_cle>
+        <mot_cle>british-navy</mot_cle>
+        <mot_cle>corpse</mot_cle>
+        <mot_cle>machine-gun</mot_cle>
+        <mot_cle>china</mot_cle>
+        <mot_cle>husband-wife-relationship</mot_cle>
+        <mot_cle>hamburg-germany</mot_cle>
+        <mot_cle>product-placement</mot_cle>
+        <mot_cle>woman-agent</mot_cle>
+        <mot_cle>oxford</mot_cle>
+        <mot_cle>remote-control</mot_cle>
+        <mot_cle>torpedo</mot_cle>
+        <mot_cle>british-intelligence</mot_cle>
+        <mot_cle>helicopter</mot_cle>
+        <mot_cle>gatling-gun</mot_cle>
+        <mot_cle>media</mot_cle>
+      </mots_cles>
+      <langages>
+        <langage>English</langage>
+        <langage>Danish</langage>
+        <langage>Cantonese</langage>
+        <langage>German</langage>
+        <langage>Mandarin</langage>
+      </langages>
+      <photo url="null" />
+      <acteurs>
+        <acteur sexe="MASCULIN">
+          <nom>Llewelyn, Desmond</nom>
+          <nom_naissance>Llewelyn, Desmond Wilkinson</nom_naissance>
+          <biographie>Desmond Llewelyn was born in South Wales in 1914, the son of a coal mining engineer. In high school, he worked as a stagehand in the school's productions and then picked up sporadic small parts. His family would not give up their effort to prevent him from a life on stage, so an uncle who was a high ranking police officer arranged for Llewelyn to take the department's physical exam. "Thank God, I flunked the eye test, and they wouldn't take me. I suspect the inspector had a hangover because he also failed this other chap I knew, who went out the same day and passed the physical for the Royal Navy, which had a lot tougher test." After failing the police exam, Llewelyn thought about becoming a minister, realizing after a week-long retreat of quiet and meditation that the ministry "was definitely not for me." Llewelyn persevered in his acting quest, and was accepted to the Royal Academy for the Dramatic Arts in the mid 1930s. The outbreak of World War II in September 1939, halted his acting career, and Llewelyn was commissioned as a second lieutenant in the British army. He was assigned to the Royal Welsh Fusiliers and was sent to France in early 1940. In a short time, his regiment was fighting the Germans, and Llewelyn's company was holding off a division of German tanks. Llewelyn explained that "eventually, the tanks broke through and many of us jumped into this canal and started swimming down it to the other side, figuring that our chaps were still over there. But the Germans were the only ones there," and Llewelyn was captured, and held as a prisoner of war for five years. At one prison camp, the prisoners had dug a tunnel and were planning to escape the next morning. Llewelyn was down in the tunnel doing some maintenance work in preparation of the escape when the Germans found out about the tunnel and caught him down in it, a crime that earned Llewelyn 10 days in solitary, which Llewelyn called "a blessing of sorts. After spending every day of several years sleeping in a room with 50 other people, the quiet and privacy was rather nice." After the war, Llewelyn returned to London and revived his career, eventually being cast as his trademark Q in _From Russia with Love (1963)_ (qv). Since 1963, Llewelyn has appeared as Q in every Eon Productions Bond film, except _Live and Let Die (1973)_ (qv). Llewelyn was omitted from _Live and Let Die (1973)_ (qv) because producers 'Harry Saltzman' (qv) and 'Albert R. Broccoli' (qv) felt that too much was being made of the gadgets and they would play it down. Llewelyn said he "was quite disappointed" at being left out of _Live and Let Die (1973)_ (qv). Fans, however, missed Q, and Llewelyn got a call shortly after the release of _Live and Let Die (1973)_ (qv) telling him that he would be in the next Bond film, _The Man with the Golden Gun (1974)_ (qv). Llewelyn, who admits that his mechanical abilities in real life are virtually nil, is geared up for the next Bond movie. "I'd love to be in the next one," Llewelyn said. "Of course, if you consider my age, they should have put me out to grass a long time ago."</biographie>
+          <roles>
+            <role>
+              <nom>Q</nom>
+              <place>10</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>12</jour>
+            <mois>8</mois>
+            <annee>1914</annee>
+          </date_naissance>
+          <date_deces>
+            <jour>19</jour>
+            <mois>11</mois>
+            <annee>1999</annee>
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Young, Nina</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Tamara Steel</nom>
+              <place>17</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1966</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Bowen, Christopher</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Cmdr. Richard Day - HMS Devonshire</nom>
+              <place>24</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Torrens, Pip</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Captain - HMS Bedford</nom>
+              <place>31</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>2</jour>
+            <mois>5</mois>
+            <annee>1960</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Coyle, Brendan</nom>
+          <nom_naissance>Coyle, David</nom_naissance>
+          <biographie>Brendan Coyle was born in Corby, Northamptonshire to an Irish father and Scottish mother; his parents moved to Corby from County Tyrone, Ireland. Brendan holds Irish citizenship and has previously lived in Dublin and London. However, according to a video clip from the site for "Rockface" he resides in Norfolk.  Brendan is also the great nephew of footballing (i.e. soccer) legend Sir Matt Busby of Manchester United fame.  Brendan trained at drama school in Dublin, founded in the late 1960s as the Focus Theatre, was co-founded by his aunt Mary Elizabeth Burke-Kennedy. Brendan started there in 1981 and then received a scholarship to Mountview Theatre School in England in 1983. He has directed at least two plays at Mountview since graduating from there.  Brendan has done a number of stage, television, and movie productions, including the play "The Weir" for which he won an Olivier Award for Best Supporting Performance award for his part as the bartender, Brendan. He continues to work on stage, in film and on television.</biographie>
+          <roles>
+            <role>
+              <nom>Leading Seaman - HMS Bedford</nom>
+              <place>35</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>2</jour>
+            <mois>11</mois>
+            <annee>1963</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Alexander, Bruce</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Captain - HMS Chester</nom>
+              <place>22</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Bond, Samantha</nom>
+          <nom_naissance>Bond, Samantha Jane</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Miss Moneypenny</nom>
+              <place>11</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>27</jour>
+            <mois>10</mois>
+            <annee>1961</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Napier, Hugo</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Jeff Hobbs</nom>
+              <place>41</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>18</jour>
+            <mois>5</mois>
+            <annee>1946</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Hawkins, Andrew</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Lt. Cmdr. Peter Hume - HMS Devonshire</nom>
+              <place>25</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Butler, Gerard</nom>
+          <nom_naissance>Butler, Gerard James</nom_naissance>
+          <biographie>Born in Paisley, Scotland, to Margaret and Edward Butler, Gerard Butler was raised, along with his older brother and sister, in his hometown of Paisley, Scotland. He also spent some of his youth in Canada. His parents divorced when he was a child, and he and his siblings were raised primarily by their mother, who later remarried. He had no contact with his father between the ages of two and 16 years old, after which time they became close. His father passed away when Gerard was in his early 20s. Butler went on to attend Glasgow University, where he studied to be a lawyer/solicitor. He was president of the school's law society thanks to his outgoing personality and great social skills.  His acting career began when he was approached in a London coffee shop by actor 'Steven Berkoff (I)' (qv), who later appeared alongside Butler in _Attila (2001/I) (TV)_ (qv), who gave him a role in a stage production of "Coriolanus". After that, Butler decided to give up law for acting. He was cast as 'Ewan McGregor' (qv)'s character "Renton" in the stage adaptation of [i]Trainspotting[/i]. His film debut was as 'Billy Connolly (I)' (qv)'s younger brother in _Mrs Brown (1997)_ (qv). While filming the movie in Scotland, he was enjoying a picnic with his mother near the River Tay when they heard the shouts of a young boy, who had been swimming with a friend, who was in some trouble. Butler jumped in and saved the young boy from drowning. He received a Certificate of Bravery from the Royal Humane Society. He felt he only did what anyone in the situation would have done.  His film career continued with small roles, first in the "James Bond" movie, _Tomorrow Never Dies (1997)_ (qv), and then 'Russell Mulcahy' (qv)'s _Tale of the Mummy (1998)_ (qv). In 2000, Butler was cast in two breakthrough roles, the first being "Attila the Hun" in the USA Network mini-series, _Attila (2001/I) (TV)_ (qv). The film's producers wanted a known actor to play the part but kept coming back to Butler's screen tests and decided he was their man. He had to lose the thick Scottish accent, but managed well. Around the time "Attila" was being filmed, casting was in progress for 'Wes Craven' (qv)'s new take on the "Dracula" legacy. Also wanting a known name, Butler wasn't much of a consideration, but his unending tenacity drove him to hounding the producers. Eventually, he sent them a clip of his portrayal of "Attila". Evidently, they saw something because _Dracula 2000 (2000)_ (qv) was cast in the form of Butler. Attila's producers, thinking that his big-screen role might help with their own film's ratings, finished shooting a little early so he could get to work on _Dracula 2000 (2000)_ (qv). Following these two roles, Butler developed quite a fan base, an Internet site and began appearing on lists everywhere.  Since then, he has appeared in _Reign of Fire (2002)_ (qv) as "Creedy" and _Lara Croft Tomb Raider: The Cradle of Life (2003)_ (qv) as "Terry Sheridan", alongside 'Angelina Jolie' (qv). The role that garnered him the most attention from both moviegoers and movie makers, alike, was that of "Andre Marek" in the big-screen adaptation of 'Michael Crichton' (qv)'s novel, _Timeline (2003)_ (qv). Butler played an archaeologist who was sent back in time with a team of students to rescue a colleague. Last year, he appeared in 'Andrew Lloyd Webber' (qv)'s musical, _The Phantom of the Opera (2004)_ (qv), playing the title character in the successful adaptation of the stage musical. It was a role that brought him much international attention. Other projects include _Dear Frankie (2004)_ (qv), _The Game of Their Lives (2005)_ (qv) and _Beowulf &amp; Grendel (2005)_ (qv).  In 2007, he starred as Spartan "King Leonidas" in the Warner Bros. production _300 (2006)_ (qv), based on the 'Frank Miller (II)' (qv) graphic novel, and _Butterfly on a Wheel (2007)_ (qv), co-starring 'Pierce Brosnan' (qv) and 'Maria Bello' (qv), which aired on network TV under the title, "Shattered". He most recently starred in _P.S. I Love You (2007)_ (qv), with Academy Award-winner 'Hilary Swank' (qv).  In 2007, he appeared in _Nim's Island (2008)_ (qv) and _RocknRolla (2008)_ (qv), and completed the new 'Mark Neveldine' (qv) / 'Brian Taylor (V)' (qv) film, _Gamer (2009)_ (qv). His next films included _The Ugly Truth (2009)_ (qv), co-starring 'Katherine Heigl' (qv), which began filming in April 2008, _The Bounty Hunter (2010/I)_ (qv), _How to Train Your Dragon (2010)_ (qv), _Chasing Mavericks (2012)_ (qv) and _Olympus Has Fallen (2013)_ (qv). Butler is also a relative of rising animator and film director 'Mark Flood (III)' (qv).</biographie>
+          <roles>
+            <role>
+              <nom>Leading Seaman - HMS Devonshire</nom>
+              <place>28</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>13</jour>
+            <mois>10</mois>
+            <annee>1969</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Matthews, Al</nom>
+          <nom_naissance />
+          <biographie>Folk singer and musical performer who worked professionally while living in England. He later turned to acting, but continues to write and sing. Matthews is noted for having made two significant historical firsts. While on combat duty during the Vietnam War, Matthews became the first black Marine to be meritoriously promoted to the rank of Sergeant (E-5). Williams was also the first "black voice" on England's national station, 'Radio 1.'</biographie>
+          <roles>
+            <role>
+              <nom>Master Sergeant 3</nom>
+              <place>20</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>21</jour>
+            <mois>10</mois>
+            <annee>1942</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Ashton, David</nom>
+          <nom_naissance>Scott, David</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>First Sea Lord</nom>
+              <place>36</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Saxon, Rolf</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Philip Jones</nom>
+              <place>42</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1955</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>McCarthy, Eoin</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Yeoman - HMS Bedford</nom>
+              <place>34</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1963</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Bonneville, Hugh</nom>
+          <nom_naissance>Williams, Hugh Richard Bonneville</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Air Warfare Officer - HMS Bedford</nom>
+              <place>32</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>10</jour>
+            <mois>10</mois>
+            <annee>1963</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Rigby, Terence</nom>
+          <nom_naissance>Rigby, Terence Christopher</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>General Bukharin</nom>
+              <place>15</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>2</jour>
+            <mois>0</mois>
+            <annee>1937</annee>
+          </date_naissance>
+          <date_deces>
+            <jour>10</jour>
+            <mois>7</mois>
+            <annee>2008</annee>
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Otto, Götz</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Stamper</nom>
+              <place>6</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>15</jour>
+            <mois>9</mois>
+            <annee>1967</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Brattan, Laura</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Staff Officer #2</nom>
+              <place>38</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Wang, Vincent</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>MiG Pilot</nom>
+              <place>43</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Salmon, Colin</nom>
+          <nom_naissance />
+          <biographie>Colin Salmon is one of Britain's most renowned actors. With a bold voice and posture, Colin makes his characters a favorite among audiences for every role he plays. He made his feature debut as Sgt. Robert Oswald in the British mega-hit mini-series _"Prime Suspect 2" (1992)_ (qv), which gave him much acclaim among British audiences. He has a recurring role in the James Bond films as Charles Robinson, M's Chief of Staff. He has also appeared as the Commander James "One" Shade in the video game-to-movie _Resident Evil (2002)_ (qv) and played Oonu, squad leader of the Skybax in the mini-series _"Dinotopia" (2002/I)_ (qv) . His other film credits include _Captives (1994)_ (qv), _The Wisdom of Crocodiles (1998)_ (qv), _Fanny and Elvis (1999)_ (qv), _Mind Games (2001) (TV)_ (qv), and _My Kingdom (2001)_ (qv). His theater credits include Ariadne at London's Queen Elizabeth Hall.</biographie>
+          <roles>
+            <role>
+              <nom>Chief of Staff Charles Robinson</nom>
+              <place>12</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>6</jour>
+            <mois>11</mois>
+            <annee>1962</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Watkins, Jason</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Principal Warfare Officer - HMS Bedford</nom>
+              <place>33</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>30</jour>
+            <mois>6</mois>
+            <annee>1966</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Dench, Judi</nom>
+          <nom_naissance>Dench, Judith Olivia</nom_naissance>
+          <biographie>Attended Mount School in York, and studied at the Central School of Speech and Drama. She has performed with Royal Shakespeare Company, the National Theatre, and at Old Vic Theatre. She is a ten-time BAFTA winner including Best Actress in a Comedy Series for _"A Fine Romance" (1981)_ (qv) in which she appeared with her husband, 'Michael Williams (I)' (qv), and Best Supporting Actress in _A Handful of Dust (1988)_ (qv) and _A Room with a View (1985)_ (qv) . She received an ACE award for her performance in the television series _Mr. and Mrs. Edgehill (1985) (TV)_ (qv). She was made an Officer of the Order of the British Empire in 1970, and was created Dame of Order of the British Empire in 1988.</biographie>
+          <roles>
+            <role>
+              <nom>M</nom>
+              <place>9</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>9</jour>
+            <mois>11</mois>
+            <annee>1934</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Cameron-Blakey, Nadia</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Beth Davidson</nom>
+              <place>39</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Fellowes, Julian</nom>
+          <nom_naissance>Fellowes, Julian Alexander</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Minister of Defence</nom>
+              <place>14</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>17</jour>
+            <mois>7</mois>
+            <annee>1949</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Green, Anthony</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Firing Officer - HMS Chester</nom>
+              <place>23</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>4</jour>
+            <mois>3</mois>
+            <annee>1970</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Rhind-Tutt, Julian</nom>
+          <nom_naissance>Rhind-Tutt, Julian Alistair</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Yeoman - HMS Devonshire</nom>
+              <place>27</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>20</jour>
+            <mois>6</mois>
+            <annee>1968</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Kwok, Philip</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>General Chang</nom>
+              <place>44</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>21</jour>
+            <mois>9</mois>
+            <annee>1951</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Spalding, Mark</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Stealth Boat Captain</nom>
+              <place>21</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1960</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Yeoh, Michelle</nom>
+          <nom_naissance>Chu-Kheng, Yeoh</nom_naissance>
+          <biographie>Born as Yang Zi Chong in the mining town of Ipoh in West Malaysia in the lunar year of the Tiger, she spoke English and Malay before Chinese. A ballet dancer since age 4, she moved to London, England to study at the Royal Academy as a teenager. After a brief dance career, she won the Miss Malaysia beauty pageant title in her native country and the Miss Moomba beauty pageant title in Melbourne, Australia in the early 1980s. Her first on camera work was a 1984 commercial with martial arts star 'Jackie Chan (I)' (qv). In 1985, she began making action movies with D&amp;B Films of Hong Kong. She was first billed as Michelle Khan, then later, Michelle Yeoh. Never a trained martial artist, she relied on her dance discipline and her on-set trainers to prepare for her martial arts action scenes.  She uses many dance moves in her films. She still does most of her own stunts and has been injured many times. Ironically, she still cannot read Chinese and she has to have Chinese script read to her. In 1988, she married wealthy D&amp;B Films executive 'Dickson Poon' (qv) and retired from acting. Even though they divorced in 1992, she is close to Poon's second wife and a godmother to Poon's daughter. When she returned to acting, she became very popular to Chinese audiences and she became known to western audiences through her co-starring roles in the James Bond film _Tomorrow Never Dies (1997)_ (qv) and in the phenomenally successful _Wo hu cang long (2000)_ (qv) aka Crouching Tiger, Hidden Dragon' directed by 'Ang Lee' (qv). She turned down a role in a sequel to _The Matrix (1999)_ (qv).  She has her own production company, Mythical Films and has trained with the Shen Yang Acrobatic team for her role in _Tian mai zhuan qi (2002)_ (qv), an English language film she is both starring in and producing. She hopes to use her company to discover and nurture new filmmaking talent. She also wants to act in roles that combine both action and deeper spiritual themes.</biographie>
+          <roles>
+            <role>
+              <nom>Wai Lin</nom>
+              <place>3</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>6</jour>
+            <mois>7</mois>
+            <annee>1962</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Pryce, Jonathan</nom>
+          <nom_naissance>Price, John</nom_naissance>
+          <biographie>Jonathan Pryce was born on June 1, 1947, in Holywell, Wales. His father, named Isaac Price, was a coal miner, who died in 1976. His mother, named Margaret Ellen (nee Williams), was a retail cashier. He left the home of his parents at age 16 to attend an art school, where he became interested in drama. At some point he changed the spelling of his last name from Price to Pryce. He studied acting on a scholarship at the Royal Academy of Dramatic Art in London. After graduation from RADA, he joined the Liverpool Everyman Theatre and eventually became its Artistic Director.  In the 1970s Pryce established himself on the London stage with appearances in 'The Taming of the Shrew', 'Hamlet', and 'Measure for Measure' among other plays. He won the 1977 Tony Award for his Broadway debut in 'Comedians', for which he also earned the 1977 Theatre World Award and the 1977 nomination for Drama Desk Outstanding Actor Award. Pryce earned his second Tony Award 15 years later for the role as "The Engineer", a half-Vietnamese/half French pimp in 'Miss Saigon'. Pryce created the role in the original London production and agreed to reprise the role on Broadway in a transplant of the same production. Despite controversy over his appearance -- the actors union decried the long-standing practice of hiring white actors to play Asian or Eurasian characters, especially given the paucity of roles for Asian characters, and it also objected to the producer's refusal to even audition any Asian actors -- he gave a brilliant performance.  In 1976 Pryce made his big screen debut in _Voyage of the Damned (1976)_ (qv). But it wasn't until 1983 that he made a strong impression with his scary performance as a freaky manipulative Mr. Dark in Ray Bradbury's _Something Wicked This Way Comes (1983)_ (qv). Pryce shot to fame with _Brazil (1985)_ (qv) and his role as Sam Lowry, a technocrat trying to correct an error caused by a bug and himself becomes entangled in psychopathic bureaucracy eventually becoming an enemy of the state. He also filled such strong and authoritative roles, as president Juan Peron opposite Madonna in _Evita (1996)_ (qv), then co-starred opposite Pierce Brosnan as Elliot Carver, the evil megalomaniac media mogul in the 18th Bond film, _Tomorrow Never Dies (1997)_ (qv).  Pryce's versatility and multifaceted talent rarely had a chance to take him beyond playing freaks and villains in film, an imposed forte which he, however, managed to overcome in his numerous stage performances and in a few film and TV works. He went on playing a range of characters marked with sophistication and depth, such as his subtle and nuanced portrayal of author Lytton Strachey in _Carrington (1995)_ (qv), for which he won the Best Actor Award at Cannes. Pryce also shone in musicals 'My Fair Lady' and 'Oliver' to name just a few. Pryce made numerous works for television ranging from costume dramas to comedy, and from narrations to singing. In January 2006, he replaced John Lithgow as Lawrence Jameson in the acclaimed musical version of 'Dirty Rotten Scoundrels'. He appeared as the timid Jamaican Governor Wetherby Swann in _Pirates of the Caribbean: The Curse of the Black Pearl (2003)_ (qv), and the sequel _Pirates of the Caribbean: Dead Man's Chest (2006)_ (qv), and the third installment of the Pirates franchise, _Pirates of the Caribbean: At World's End (2007)_ (qv).  Jonathan Pryce has been with his partner, actress Kate Fahy, since 1974 when they met at the Everyman Theatre Liverpool Company, though they have never married. They have two sons, Patrick (born 1983) and Gabriel (born 1986), and one daughter, Phoebe (born 1990). Pryce and Fahy also co-starred in the 2004 production of 'The Goat, or Who Is Sylvia?'. Fahy and Pryce reside with their family in England.</biographie>
+          <roles>
+            <role>
+              <nom>Elliot Carver</nom>
+              <place>2</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>5</mois>
+            <annee>1947</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Brosnan, Pierce</nom>
+          <nom_naissance>Brosnan, Pierce Brendan</nom_naissance>
+          <biographie>Pierce Brosnan was born in Navan, County Meath, Ireland, and lived in Navan, County Meath, until he moved to England, UK, at an early age (thus explaining his ability to play men from both backgrounds convincingly). His father left the household when Pierce was a child and although reunited later in life, the two have never had a close relationship. His most popular role is that of British secret agent James Bond. The death, in 1991, of 'Cassandra Harris (I)' (qv), his wife of eleven years, left him with three children - Christopher and Charlotte from Cassandra's first marriage and Sean from their marriage. Since her death, he has had two children with his second wife, 'Keely Shaye Smith' (qv).</biographie>
+          <roles>
+            <role>
+              <nom>James Bond</nom>
+              <place>1</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>16</jour>
+            <mois>4</mois>
+            <annee>1953</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Jay, Ricky</nom>
+          <nom_naissance>Potash, Richard Jay</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>Henry Gupta</nom>
+              <place>5</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1948</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Barker, Adam</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Sonar Operator - HMS Devonshire</nom>
+              <place>29</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>1</jour>
+            <mois>0</mois>
+            <annee>1966</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Scott-Masson, William</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Staff Officer #1</nom>
+              <place>37</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Hatcher, Teri</nom>
+          <nom_naissance>Hatcher, Teri Lynn</nom_naissance>
+          <biographie>Teri Lynn Hatcher was born in Palo Alto, California, USA, as the only child of Owen and Esther Hatcher, and grew up in nearby Sunnyvale, California. Her father is a nuclear physicist and her mother is a computer programmer. She spent her childhood dancing and fishing with her father. While at Fremont High School, she was captain of the Featherettes, a dance team that had the look of regular cheerleaders, with the exception of the large headdresses they wore. She was voted "Most Likely to Become a _"Solid Gold" (1980)_ (qv) Dancer" by her graduating class in 1982. Hatcher studied acting at the American Conservatory Theater in San Francisco while taking a degree course in mathematics and engineering at De Anza College in Cupertino, California. She became a member of the 1984 Gold Rush, the name of the professional cheer leading squad of the American football San Francisco 49ers.  Hatcher went to Hollywood to lend moral support to a friend during a open casting call. She, however, auditioned and won the role of the singing and dancing mermaid for the television series _"The Love Boat" (1977)_ (qv). She went on to play "Penny Parker," a ditsy but sweet-hearted struggling actress on _"MacGyver" (1985)_ (qv). When that show ended, she auditioned for and won the role of smart and savvy "Lois Lane" on _"Lois &amp; Clark: The New Adventures of Superman" (1993)_ (qv), saying that she didn't want to be stuck with the pretty airhead image she had acquired as "Penny Parker."  She married actor 'Jon Tenney' (qv) in May 1994. She gave birth to daughter 'Emerson Tenney' (qv) on November 10, 1997. Later, she signed to play "Sally Bowles" in a road tour of Cabaret. The tour debuted in Los Angeles on March 2, 1999. Her final show was on September 4, 1999. She stayed out of the industry for a little bit before nabbing a role on the darkly comedic soap opera _"Desperate Housewives" (2004)_ (qv), which could have been a huge mistake. The show turned out to be a mega-hit, which skyrocketed Hatcher to the A-list. Her portrayal of a divorced mother, "Susan Mayer," was consistently named as America's favorite "Desperate Housewife." Hatcher won both a Golden Globe for Lead Actress in a Comedy Series and the SAG Award for Female Actor in a Comedy Series before the show's first season was even over.</biographie>
+          <roles>
+            <role>
+              <nom>Paris Carver</nom>
+              <place>4</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>8</jour>
+            <mois>11</mois>
+            <annee>1964</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Palmer, Geoffrey</nom>
+          <nom_naissance>Palmer, Geoffrey Dyson</nom_naissance>
+          <biographie>Born in London on June 4th, 1927, Geoffrey Palmer worked in an imports office and then as an accountant before his girlfriend persuaded him to join the local amateur dramatics society. Eventually he became assistant stage manager at Croydon's Grand Theatre, and then spent several years touring with rep. His first roles on TV came in comedy series such as those of Harry Worth and Arthur Askey. He is now a familiar face on British television.</biographie>
+          <roles>
+            <role>
+              <nom>Admiral Roebuck</nom>
+              <place>13</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>4</jour>
+            <mois>5</mois>
+            <annee>1927</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Shaun, Dominic</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Lieutenant Commander - HMS Devonshire</nom>
+              <place>26</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Baker, Joe Don</nom>
+          <nom_naissance />
+          <biographie>Tall, broad shouldered character actor with Texan drawl first appeared in support in several Western vehicles both on TV and the cinema in the mid 1960s. Got himself noticed playing Steve McQueen's younger brother in _Junior Bonner (1972)_ (qv), and then scored the lead role of Buford Pusser (!) in the unexpected hit _Walking Tall (1973)_ (qv), an allegedly true tale about a Southern sheriff confronting corruption &amp; gangsters with a large wooden club and a mean attitude. Followed it up by playing a sadistic hit man called Molly, in Don Siegel's bank heist drama _Charley Varrick (1973)_ (qv). Joe Don Baker's next few films were rather forgettable until he landed the role of police detective Earl Eischied in _To Kill a Cop (1978) (TV)_ (qv)....which led him into reprising the same character in the short lived TV series _"Eischied" (1979)_ (qv). Since then he has proved he is also quite adept at taking on comedy roles, as well as picking up plenty of work playing lawmen, military men, politicians etc. Keep your eye open for him as a nosy police chief in _Fletch (1985)_ (qv), a meglomanical general in _The Living Daylights (1987)_ (qv), as a redneck father in _Mars Attacks! (1996)_ (qv), and as intelligence operative Jack Wade in the 007 films _Tomorrow Never Dies (1997)_ (qv) and _GoldenEye (1995)_ (qv).</biographie>
+          <roles>
+            <role>
+              <nom>Jack Wade</nom>
+              <place>7</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>12</jour>
+            <mois>1</mois>
+            <annee>1936</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Thomsen, Cecilie</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Professor Inga Bergstrom</nom>
+              <place>16</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>29</jour>
+            <mois>9</mois>
+            <annee>1974</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Deckers, Daphne</nom>
+          <nom_naissance>Deckers, Daphne Muriël</nom_naissance>
+          <biographie />
+          <roles>
+            <role>
+              <nom>PR Lady</nom>
+              <place>18</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>10</jour>
+            <mois>10</mois>
+            <annee>1968</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Boo Khoo, Ian</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Vietnamese Villager</nom>
+              <place>9223372036854775807</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>26</jour>
+            <mois>5</mois>
+            <annee>1982</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Stinton, Colin</nom>
+          <nom_naissance />
+          <biographie>Immigrated to the United States in 1952. Lived in a trailer -- traveling throughout the country with his family before settling in Kansas City, then suburban Chicago. Educated at Northern Illinois University. Began his professional career in Chicago, where he helped found The Theatre Building, then moved to New York in 1978. Now lives in London and Chicago.</biographie>
+          <roles>
+            <role>
+              <nom>Dr. Dave Greenwalt</nom>
+              <place>19</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>10</jour>
+            <mois>2</mois>
+            <annee>1947</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="FEMININ">
+          <nom>Ross, Liza</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Mary Golson</nom>
+              <place>40</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour />
+            <mois />
+            <annee />
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Byrne, Michael</nom>
+          <nom_naissance />
+          <biographie />
+          <roles>
+            <role>
+              <nom>Admiral Kelly - HMS Bedford</nom>
+              <place>30</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>7</jour>
+            <mois>10</mois>
+            <annee>1943</annee>
+          </date_naissance>
+          <date_deces>
+            <jour />
+            <mois />
+            <annee />
+          </date_deces>
+        </acteur>
+        <acteur sexe="MASCULIN">
+          <nom>Schiavelli, Vincent</nom>
+          <nom_naissance>Schiavelli, Vincent Andrew</nom_naissance>
+          <biographie>Vincent Schiavelli, selected in 1997 by Vanity Fair as one of the best character actors in America, had made over 120 film and television appearances. He studied acting at NYU's Theatre Program. Aside from his acting career, Vincent was the author of three cookbooks, and has written numerous articles on food for magazines and newspapers. In 2001, he received the 'James Beard (II)' (qv) Journalism Award.</biographie>
+          <roles>
+            <role>
+              <nom>Dr. Kaufman</nom>
+              <place>8</place>
+            </role>
+          </roles>
+          <date_naissance>
+            <jour>11</jour>
+            <mois>10</mois>
+            <annee>1948</annee>
+          </date_naissance>
+          <date_deces>
+            <jour>26</jour>
+            <mois>11</mois>
+            <annee>2005</annee>
+          </date_deces>
+        </acteur>
+      </acteurs>
+    </film>
+  </projection>
+</projections>

@@ -1,6 +1,12 @@
 package controllers;
 
+import ch.heigvd.iict.ser.imdb.models.Role;
 import models.*;
+import org.jdom2.DocType;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.output.Format;
+import org.jdom2.output.XMLOutputter;
 import views.*;
 
 import java.io.File;
@@ -10,6 +16,7 @@ import java.io.BufferedWriter;
 import java.io.StringWriter;
 import java.text.DecimalFormat;
 import java.util.Calendar;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -47,85 +54,201 @@ public class ControleurXMLCreation {
                 try {
                     globalData = ormAccess.GET_GLOBAL_DATA();
                     try {
-                        BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("plex.xml"), "UTF-8"));
-                        out.write("<?xml version=\"1.0\" ?>\n");
-                        out.write("<!DOCTYPE projections SYSTEM \"Plex.dtd\">\n");
-                        out.write("<projections>\n");
+                        Document doc = new Document();
+                        XMLOutputter outp = new XMLOutputter(Format.getPrettyFormat());
+
+                        Element projections = new Element("projections");
+
                         for (Projection p : globalData.getProjections()) {
-                            out.write("\t<projection>\n");
+                            Element projection = new Element("projection");
                             {
-                                out.write("\t\t<date>\n");
-                                Calendar date = p.getDateHeure();
+                                Element date = new Element("date");
                                 {
-                                    out.write("\t\t\t<jour>" + date.get(Calendar.DAY_OF_MONTH) + "</jour>\n");
-                                    out.write("\t\t\t<mois>" + date.get(Calendar.MONTH) + "</mois>\n");
-                                    out.write("\t\t\t<annee>" + date.get(Calendar.YEAR) + "</annee>\n");
-                                    out.write("\t\t\t<heure>" + date.get(Calendar.HOUR_OF_DAY) + "</heure>\n");
-                                    out.write("\t\t\t<minute>" + date.get(Calendar.MINUTE) + "</minute>\n");
+                                    Calendar dateheure = p.getDateHeure();
+                                    Element jour = new Element("jour");
+                                    jour.addContent(Integer.toString(dateheure.get(Calendar.DAY_OF_MONTH)));
+                                    Element mois = new Element("mois");
+                                    mois.addContent(Integer.toString(dateheure.get(Calendar.MONTH)));
+                                    Element annee = new Element("annee");
+                                    annee.addContent(Integer.toString(dateheure.get(Calendar.YEAR)));
+                                    Element heure = new Element("heure");
+                                    heure.addContent(Integer.toString(dateheure.get(Calendar.HOUR_OF_DAY)));
+                                    Element minute = new Element("minute");
+                                    minute.addContent(Integer.toString(dateheure.get(Calendar.MINUTE)));
+
+                                    date.addContent(jour);
+                                    date.addContent(mois);
+                                    date.addContent(annee);
+                                    date.addContent(heure);
+                                    date.addContent(minute);
                                 }
-                                out.write("\t\t<date>\n");
-                            }
-                            {
-                                out.write("\t\t<salle>" + p.getSalle().getNo() + "</salle>\n");
-                            }
-                            {
-                                out.write("\t\t<film>\n");
+
+                                Element salle = new Element("salle");
+                                salle.addContent(p.getSalle().getNo());
+
+                                Element film = new Element("film");
                                 {
-                                    out.write("\t\t\t<titre>" + p.getFilm().getTitre() + "</titre>\n");
-                                    out.write("\t\t\t<synopsis>" + p.getFilm().getSynopsis() + "</synopsis>\n");
-                                    out.write("\t\t\t<duree>" + p.getFilm().getDuree() + "</duree>\n");
+                                    Film f = p.getFilm();
 
-                                    out.write("\t\t\t<critiques>\n");
-                                    for (Critique c : p.getFilm().getCritiques()) {
-                                        out.write("\t\t\t\t<critique>\n");
+                                    Element titre = new Element("titre");
+                                    titre.addContent(f.getTitre());
+                                    Element synopsis = new Element("synopsis");
+                                    synopsis.addContent(f.getSynopsis());
+                                    Element duree = new Element("duree");
+                                    duree.addContent(Integer.toString(f.getDuree()));
+
+                                    Element critiques = new Element("critiques");
+                                    for (Critique c : f.getCritiques()) {
+                                        Element critique = new Element("critique");
                                         {
-                                            out.write("\t\t\t\t\t<texte>" + c.getTexte() + "</texte>\n");
-                                            out.write("\t\t\t\t\t<note>" + c.getNote() + "</note>\n");
+                                            Element texte = new Element("texte");
+                                            texte.addContent(c.getTexte());
+                                            Element note = new Element("note");
+                                            note.addContent(Integer.toString(c.getNote()));
+
+                                            critique.addContent(texte);
+                                            critique.addContent(note);
                                         }
-                                        out.write("\t\t\t\t</critique>\n");
+                                        critiques.addContent(critique);
                                     }
-                                    out.write("\t\t\t<critiques>\n");
+
+                                    Element genres = new Element("genres");
+                                    for (Genre g : f.getGenres()) {
+                                        Element genre = new Element("genre");
+                                        genre.addContent(g.getLabel());
+
+                                        genres.addContent(genre);
+                                    }
+
+                                    Element mots_cles = new Element("mots_cles");
+                                    for (Motcle mc : f.getMotcles()) {
+                                        Element mot_cle = new Element("mot_cle");
+                                        mot_cle.addContent(mc.getLabel());
+
+                                        mots_cles.addContent(mot_cle);
+                                    }
+
+                                    Element langages = new Element("langages");
+                                    for (Langage l : f.getLangages()) {
+                                        Element langage = new Element("langage");
+                                        langage.addContent(l.getLabel());
+
+                                        langages.addContent(langage);
+                                    }
+
+                                    Element photo = new Element("photo");
+                                    photo.setAttribute("url", "" + f.getPhoto());
 
 
-                                    out.write("\t\t\t<genres>\n");
-                                    for(Genre g : p.getFilm().getGenres()){
-                                        out.write("\t\t\t\t<genre>");
+                                    Set<Acteur> acteurSet = new HashSet<>();
+
+                                    for (RoleActeur ra : f.getRoles()) {
+                                        acteurSet.add(ra.getActeur());
+                                    }
+
+
+                                    Element acteurs = new Element("acteurs");
+                                    for (Acteur a : acteurSet) {
+                                        Element acteur = new Element("acteur");
+
                                         {
-                                            out.write(g.getLabel());
-                                        }
-                                        out.write("</genre>\n");
-                                    }
-                                    out.write("\t\t\t</genres>\n");
+                                            acteur.setAttribute("sexe", a.getSexe().name());
+                                            Element nom = new Element("nom");
+                                            nom.addContent(a.getNom());
+                                            Element nom_naissance = new Element("nom_naissance");
+                                            nom_naissance.addContent(a.getNomNaissance());
+                                            Element biographie = new Element("biographie");
+                                            biographie.addContent(a.getBiographie());
 
-                                    out.write("\t\t\t<mots_cles>\n");
-                                    for(Motcle mc : p.getFilm().getMotcles()){
-                                        out.write("\t\t\t\t<mot_cle>");
-                                        {
-                                            out.write(mc.getLabel());
-                                        }
-                                        out.write("</mot_cle>\n");
-                                    }
-                                    out.write("\t\t\t</mots_cles>\n");
+                                            Element roles = new Element("roles");
+                                            {
+                                                for(RoleActeur ra : f.getRoles()){
+                                                    if(ra.getActeur().getId() == a.getId()){
+                                                        Element role = new Element("role");
+                                                        {
+                                                            Element personnage = new Element("nom");
+                                                            personnage.addContent(ra.getPersonnage());
+                                                            Element place = new Element("place");
+                                                            place.addContent(Long.toString(ra.getPlace()));
 
-                                    out.write("\t\t\t<langages>\n");
-                                    for(Langage l : p.getFilm().getLangages()){
-                                        out.write("\t\t\t\t<langue>");
-                                        {
-                                            out.write(l.getLabel());
-                                        }
-                                        out.write("</langue>\n");
-                                    }
-                                    out.write("\t\t\t</langages>\n");
+                                                            role.addContent(personnage);
+                                                            role.addContent(place);
+                                                        }
+                                                        roles.addContent(role);
+                                                    }
+                                                }
+                                            }
 
+                                            Element date_naissance = new Element("date_naissance");
+                                            {
+                                                Calendar dateHeure = a.getDateNaissance();
+                                                Element jour = new Element("jour");
+                                                Element mois = new Element("mois");
+                                                Element annee = new Element("annee");
+                                                if (dateHeure != null) {
+                                                    jour.addContent(Integer.toString(dateHeure.get(Calendar.DAY_OF_MONTH)));
+                                                    mois.addContent(Integer.toString(dateHeure.get(Calendar.MONTH)));
+                                                    annee.addContent(Integer.toString(dateHeure.get(Calendar.YEAR)));
+
+                                                }
+                                                date_naissance.addContent(jour);
+                                                date_naissance.addContent(mois);
+                                                date_naissance.addContent(annee);
+                                            }
+
+                                            Element date_deces = new Element("date_deces");
+                                            {
+                                                Calendar dateHeure = a.getDateDeces();
+                                                Element jour = new Element("jour");
+                                                Element mois = new Element("mois");
+                                                Element annee = new Element("annee");
+                                                if (dateHeure != null) {
+                                                    jour.addContent("" + Integer.toString(dateHeure.get(Calendar.DAY_OF_MONTH)));
+                                                    mois.addContent("" + Integer.toString(dateHeure.get(Calendar.MONTH)));
+                                                    annee.addContent("" + Integer.toString(dateHeure.get(Calendar.YEAR)));
+                                                }
+                                                date_deces.addContent(jour);
+                                                date_deces.addContent(mois);
+                                                date_deces.addContent(annee);
+                                            }
+
+                                            acteur.addContent(nom);
+                                            acteur.addContent(nom_naissance);
+                                            acteur.addContent(biographie);
+                                            acteur.addContent(roles);
+                                            acteur.addContent(date_naissance);
+                                            acteur.addContent(date_deces);
+                                        }
+
+                                        acteurs.addContent(acteur);
+                                    }
+
+                                    film.addContent(titre);
+                                    film.addContent(synopsis);
+                                    film.addContent(duree);
+                                    film.addContent(critiques);
+                                    film.addContent(genres);
+                                    film.addContent(mots_cles);
+                                    film.addContent(langages);
+                                    film.addContent(photo);
+                                    film.addContent(acteurs);
 
                                 }
-                                out.write("\t\t</film>\n");
+                                projection.addContent(date);
+                                projection.addContent(salle);
+                                projection.addContent(film);
                             }
-
-                            out.write("\t</projection>\n");
+                            projections.addContent(projection);
                         }
-                        out.write("</projections>\n");
-                        out.close();
+
+                        doc.addContent(projections);
+
+                        DocType docType = new DocType("projections","Plex.dtd");
+                        doc.setDocType(docType);
+                        outp.output(doc, new FileOutputStream("plex.xml"));
+
+                        mainGUI.setAcknoledgeMessage("Creation XML... FINISHED");
+
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
