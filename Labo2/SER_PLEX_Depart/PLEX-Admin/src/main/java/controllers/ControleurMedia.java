@@ -7,6 +7,7 @@ import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.Calendar;
+import com.google.gson.*;
 
 public class ControleurMedia {
 
@@ -26,48 +27,58 @@ public class ControleurMedia {
 		new Thread(){
 			public void run(){
 				mainGUI.setAcknoledgeMessage("Envoi JSON ... WAIT");
-				//long currentTime = System.currentTimeMillis();
 				try {
 					globalData = ormAccess.GET_GLOBAL_DATA();
+
+					Gson moteurJson = new GsonBuilder().setPrettyPrinting().create();
+
 					BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("plex.json"), "UTF-8"));
+					JsonObject data = new JsonObject();
+					JsonArray projectionsList = new JsonArray();
 
-					StringBuilder str = new StringBuilder();
-
-					str.append("{\n");
-					str.append("\t\"projections\": {\n");
-					str.append("\t\t\"projection\": [\n");
-
-					for (Projection projection : globalData.getProjections()){
-						// Début d'une projection
-						str.append("\t\t\t{\n");
+					for (Projection proj : globalData.getProjections()){
+						JsonObject projection = new JsonObject();
 
 						// Date
-						Calendar date = projection.getDateHeure();
-						str.append("\t\t\t\t\"date\": {\n");
-						str.append("\t\t\t\t\t\"jour\": \"" + date.get(Calendar.DAY_OF_MONTH) +"\",\n");
-						str.append("\t\t\t\t\t\"mois\": \"" + date.get(Calendar.MONTH) +"\",\n");
-						str.append("\t\t\t\t\t\"annee\": \"" + date.get(Calendar.YEAR) +"\",\n");
-						str.append("\t\t\t\t\t\"heure\": \"" + date.get(Calendar.HOUR_OF_DAY) +"\",\n");
-						str.append("\t\t\t\t\t\"minute\": \"" + date.get(Calendar.MINUTE) +"\",\n");
-						str.append("\t\t\t\t},\n");
+						JsonObject date = new JsonObject();
+						Calendar projectionDate = proj.getDateHeure();
+						date.add("jour", new JsonPrimitive(projectionDate.get(Calendar.DAY_OF_MONTH)));
+						date.add("mois", new JsonPrimitive(projectionDate.get(Calendar.MONTH)));
+						date.add("annee", new JsonPrimitive(projectionDate.get(Calendar.YEAR)));
+						date.add("heure", new JsonPrimitive(projectionDate.get(Calendar.HOUR_OF_DAY)));
+						date.add("minute", new JsonPrimitive(projectionDate.get(Calendar.MINUTE)));
+						projection.add("date", date);
 
 						// Film
-						Film film = projection.getFilm();
-						str.append("\t\t\t\t\"film\": {\n");
-						str.append("\t\t\t\t\t\"titre\": \"" + film.getTitre() + "\"\n");
+						JsonObject film = new JsonObject();
+						film.add("titre", new JsonPrimitive(proj.getFilm().getTitre()));
 
+						// Acteur
+						JsonArray actorList = new JsonArray();
+						for(RoleActeur role : proj.getFilm().getRoles()){
+							if(role.getPlace() == 1 || role.getPlace() == 2){
+								JsonObject actor = new JsonObject();
+								if(role.getActeur().getNomNaissance() != null)
+									actor.add("nom_naissance", new JsonPrimitive(role.getActeur().getNomNaissance()));
+								else
+									actor.add("nom", new JsonPrimitive(role.getActeur().getNom()));
 
+								actorList.add(actor);
+							}
+						}
 
-						// Fin d'une projection
-						str.append("\t\t\t},\n");
+						film.add("acteurs", actorList);
+						projection.add("film", film);
+
+						projectionsList.add(projection);
 					}
 
-//					str.deleteCharAt(str.)
+					data.add("projections", projectionsList);
 
-					// Referme les objets/tableaux ouverts
-					str.append("\t\t]\n\t}\n}");
+					out.write(moteurJson.toJson(data));
+					out.close();
 
-					out.write(str.toString());
+					mainGUI.setAcknoledgeMessage("Envoi JSON ... FINISHED");
 				}
 				catch (Exception e){
 					mainGUI.setErrorMessage("Construction XML impossible", e.toString());
