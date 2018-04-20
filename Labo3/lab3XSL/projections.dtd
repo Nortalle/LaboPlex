@@ -1,0 +1,61 @@
+<!ELEMENT plex (projections, films, acteurs, liste_langages, liste_genres, liste_mots_cles)>
+
+	<!ELEMENT projections (projection*)>
+	<!ELEMENT projection (salle, date_heure)>
+	<!ELEMENT salle (#PCDATA)>
+	<!ELEMENT date_heure (#PCDATA)>
+	<!ATTLIST projection film_id IDREF #REQUIRED>
+	<!ATTLIST projection titre CDATA #REQUIRED>
+	<!ATTLIST date_heure format CDATA #REQUIRED>
+	<!ATTLIST salle taille CDATA #REQUIRED>
+	
+	<!ELEMENT films (film*)>
+	<!ELEMENT film (titre, duree, synopsys, photo?, critiques, langages, genres, mots_cles, roles)> 
+	<!ELEMENT titre (#PCDATA)>
+	<!ELEMENT duree (#PCDATA)>
+	<!ELEMENT synopsys (#PCDATA)>
+	<!ELEMENT photo EMPTY>
+	<!ELEMENT critiques (critique*)>
+	<!ELEMENT critique (#PCDATA)>
+	<!ELEMENT langages EMPTY>
+	<!ELEMENT genres EMPTY>
+	<!ELEMENT mots_cles EMPTY>
+	<!ELEMENT roles (role*)>
+	<!ELEMENT role EMPTY>
+
+	<!ATTLIST film no ID #REQUIRED>
+	<!ATTLIST duree format CDATA #REQUIRED>
+	<!ATTLIST photo url CDATA #REQUIRED>
+	<!ATTLIST critique note CDATA #REQUIRED>
+	<!ATTLIST langages liste IDREFS #REQUIRED>
+	<!ATTLIST genres liste IDREFS #REQUIRED>
+	<!ATTLIST mots_cles liste IDREFS #REQUIRED>
+	<!ATTLIST role place CDATA "n/a">
+	<!ATTLIST role personnage CDATA "n/a">
+	<!ATTLIST role acteur_id IDREF #REQUIRED>
+
+	<!ELEMENT acteurs (acteur*)>
+	<!ELEMENT acteur (nom, nom_naissance, sexe, date_naissance, date_deces?, biographie?)>
+	<!ELEMENT nom (#PCDATA)>
+	<!ELEMENT nom_naissance (#PCDATA)>
+	<!ELEMENT sexe EMPTY>
+	<!ELEMENT date_naissance (#PCDATA)>
+	<!ELEMENT date_deces (#PCDATA)>
+	<!ELEMENT biographie (#PCDATA)>	
+	<!ATTLIST acteur no ID #REQUIRED>
+	<!ATTLIST sexe valeur (MASCULIN | FEMININ) #IMPLIED>
+	<!ATTLIST date_naissance format CDATA #REQUIRED>
+	<!ATTLIST date_deces format CDATA #REQUIRED>
+
+	<!ELEMENT liste_langages (langage*)>
+	<!ELEMENT langage (#PCDATA)>
+	<!ATTLIST langage no ID #REQUIRED>
+
+	<!ELEMENT liste_genres (genre*)>
+	<!ELEMENT genre (#PCDATA)>
+	<!ATTLIST genre no ID #REQUIRED>
+
+	<!ELEMENT liste_mots_cles (mot_cle*)>
+	<!ELEMENT mot_cle (#PCDATA)>
+	<!ATTLIST mot_cle no ID #REQUIRED>
+
