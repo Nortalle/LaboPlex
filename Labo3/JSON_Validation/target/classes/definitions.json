@@ -1,0 +1,17 @@
+{ "adresse":
+	{
+		"type": "object",
+		"properties": {
+			"rue": { "type": "string"},
+			"ville": { "type": "string"},
+			"zip": { "type": "string" }
+		},
+		"required": [ "rue", "ville", "zip" ]
+	}
+}
+
+
+
+
+
+
