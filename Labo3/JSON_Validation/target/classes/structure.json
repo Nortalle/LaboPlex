@@ -1,0 +1,124 @@
+{
+  "Projections": [
+    {
+      "date": "2017-07-01T16:14:53+02:00",
+      "titre": "Inglourious Basterds",
+      "salle": "Flon 1",
+      "acteurs": [
+        "Roth, Eli",
+        "Fassbender, Michael",
+        "Waltz, Christoph",
+        "Ido, Jacky",
+        "Burkhard, Gedeon",
+        "Brühl, Daniel",
+        "Laurent, Mélanie",
+        "Schweiger, Til",
+        "Kruger, Diane",
+        "Pitt, Brad"
+      ]
+    },
+    {
+      "date": "2017-05-02T12:10:35+02:00",
+      "titre": "Tomorrow Never Dies",
+      "salle": "Flon 1",
+      "acteurs": [
+        "Jay, Ricky",
+        "Pryce, Jonathan",
+        "Dench, Judi",
+        "Brosnan, Pierce",
+        "Hatcher, Teri",
+        "Yeoh, Michelle",
+        "Llewelyn, Desmond",
+        "Schiavelli, Vincent",
+        "Baker, Joe Don",
+        "Otto, Götz"
+      ]
+    },
+    {
+      "date": "2017-04-02T12:21:44+02:00",
+      "titre": "GoldenEye",
+      "salle": "Flon 1",
+      "acteurs": [
+        "Janssen, Famke",
+        "Scorupco, Izabella",
+        "Karyo, Tchéky",
+        "Bean, Sean",
+        "Coltrane, Robbie",
+        "Dench, Judi",
+        "Brosnan, Pierce",
+        "Baker, Joe Don",
+        "Cumming, Alan",
+        "John, Gottfried"
+      ]
+    },
+    {
+      "date": "2017-05-02T16:21:28+02:00",
+      "titre": "Casino Royale",
+      "salle": "Flon 2",
+      "acteurs": [
+        "Green, Eva",
+        "Abkarian, Simon",
+        "Wright, Jeffrey",
+        "Mikkelsen, Mads",
+        "Murino, Caterina",
+        "Craig, Daniel",
+        "Christensen, Jesper",
+        "Dench, Judi",
+        "De Bankolé, Isaach",
+        "Giannini, Giancarlo"
+      ]
+    },
+    {
+      "date": "2017-04-02T12:24:18+02:00",
+      "titre": "Ocean's Eleven",
+      "salle": "Flon 2",
+      "acteurs": [
+        "Birt, Cecelia Ann",
+        "Nolan, Paul L.",
+        "Gantt, Mark",
+        "Galinski, Lori",
+        "Florence, Carol",
+        "Gould, Elliott",
+        "Clooney, George",
+        "Pitt, Brad",
+        "Mac, Bernie",
+        "Perez, Timothy Paul"
+      ]
+    },
+    {
+      "date": "2017-05-02T11:42:04+02:00",
+      "titre": "Django Unchained",
+      "salle": "Flon 3",
+      "acteurs": [
+        "Jackson, Samuel L.",
+        "Remar, James",
+        "Christopher, Dennis",
+        "Washington, Kerry",
+        "Gourrier, Dana",
+        "DiCaprio, Leonardo",
+        "Waltz, Christoph",
+        "Goggins, Walton",
+        "Foxx, Jamie",
+        "Steen, David"
+      ]
+    },
+    {
+      "date": "2017-04-02T12:21:17+02:00",
+      "titre": "Ocean's Thirteen",
+      "salle": "Flon 3",
+      "acteurs": [
+        "Clooney, George",
+        "Lazarre-White, Adam",
+        "Mantell, Michael",
+        "Gould, Elliott",
+        "Pacino, Al",
+        "Cheadle, Don",
+        "Xifo, Ray",
+        "Jemison, Eddie",
+        "Pitt, Brad",
+        "Damon, Matt"
+      ]
+    }
+  ]
+}
+

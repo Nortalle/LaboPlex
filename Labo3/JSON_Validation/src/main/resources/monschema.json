@@ -1,0 +1,23 @@
+{
+  "Projections": {
+    "type": "array",
+    "items" : {
+      "type": "object",
+      "properties": 	{
+        "date" :  	{"type": "date-time"},
+        "titre":  	{"type": "string"},
+        "salle":  	{"type": "string"},
+        "acteurs":	{"type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
