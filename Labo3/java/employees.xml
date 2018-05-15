@@ -1,0 +1,18 @@
+<employees>
+    <employee id="101">
+        <firstName>Lokesh</firstName>
+        <lastName>Gupta</lastName>
+        <country>India</country>
+        <department id="25">
+            <name>ITS</name>
+        </department>
+    </employee>
+    <employee id="102">
+        <firstName>Brian</firstName>
+        <lastName>Schultz</lastName>
+        <country>USA</country>
+        <department id="26">
+            <name>DEV</name>
+        </department>
+    </employee>
+</employees>
