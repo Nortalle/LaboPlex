@@ -183,12 +183,12 @@ public class Amorce {
                 Element mots_cles = new Element("mots_cles");
 
                 String mots_cles_string = "";
-                for (Element genre : filmTMP.getChild("mots_cles").getChildren("mot_cle")) {
+                for (Element mot_cle : filmTMP.getChild("mots_cles").getChildren("mot_cle")) {
 
-                    mots_cles_string += genre.getAttributeValue("no") + " ";
+                    mots_cles_string += mot_cle.getAttributeValue("no") + " ";
                 }
 
-                mots_cles.setAttribute("liste", genres_string);
+                mots_cles.setAttribute("liste", mots_cles_string);
 
                 film.addContent(mots_cles);
 
