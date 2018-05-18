@@ -22,6 +22,80 @@
         <critique note="1">Je m'attendais à voir Bob l'éponge dans les guest</critique>
       </critiques>
       <langages liste="English French " />
+      <genres liste="Adventure Thriller Action " />
+      <mots_cles liste="Adventure Thriller Action " />
+      <roles>
+        <role place="67" personnage="Venice Hotel Concierge" />
+        <role place="7" personnage="Solange" />
+        <role place="66" personnage="Disapproving Man" />
+        <role place="31" personnage="Tournament Director" />
+        <role place="60" personnage="Tennis Girls" />
+        <role place="41" personnage="Hot Room Technicians" />
+        <role place="17" personnage="Mendel" />
+        <role place="45" personnage="Airport Policemen" />
+        <role place="51" personnage="Obanno's Lieutenant" />
+        <role place="47" personnage="Arresting Officer" />
+        <role place="28" personnage="Fukutu" />
+        <role place="12" personnage="Villiers" />
+        <role place="2" personnage="Vesper Lynd" />
+        <role place="25" personnage="Madame Wu" />
+        <role place="9" personnage="Steven Obanno" />
+        <role place="9223372036854775807" personnage="Airport Staff" />
+        <role place="37" personnage="Dealer" />
+        <role place="23" personnage="Infante" />
+        <role place="57" personnage="Nambutu Embassy Official" />
+        <role place="59" personnage="Treasury Bureaucrat" />
+        <role place="49" personnage="French News Reporter" />
+        <role place="36" personnage="Card Players" />
+        <role place="40" personnage="Hot Room Doctors" />
+        <role place="38" personnage="Tall Man" />
+        <role place="27" personnage="Kaminofsky" />
+        <role place="55" personnage="Police Chief's Girlfriends" />
+        <role place="44" personnage="Police Commander" />
+        <role place="58" personnage="Bartender" />
+        <role place="20" personnage="Kratt" />
+        <role place="33" personnage="Schultz" />
+        <role place="13" personnage="Carlos" />
+        <role place="18" personnage="Carter" />
+        <role place="39" personnage="Hot Room Doctors" />
+        <role place="21" personnage="Leo" />
+        <role place="4" personnage="M" />
+        <role place="16" personnage="Adolph Gettler" />
+        <role place="26" personnage="Gallardo" />
+        <role place="3" personnage="Le Chiffre" />
+        <role place="42" personnage="Hot Room Technicians" />
+        <role place="46" personnage="Airport Policemen" />
+        <role place="50" personnage="Shop Assistant" />
+        <role place="63" personnage="Cola Kid" />
+        <role place="10" personnage="Mr. White" />
+        <role place="56" personnage="Croatian General" />
+        <role place="6" personnage="Rene Mathis" />
+        <role place="1" personnage="James Bond" />
+        <role place="65" personnage="Waitress" />
+        <role place="64" personnage="Barman" />
+        <role place="61" personnage="Tennis Girls" />
+        <role place="34" personnage="Card Players" />
+        <role place="11" personnage="Valenka" />
+        <role place="43" personnage="MI6 Technician" />
+        <role place="30" personnage="Dealer" />
+        <role place="32" personnage="Ocean Club Receptionist" />
+        <role place="69" personnage="Hermitage Waiter" />
+        <role place="19" personnage="Fisher" />
+        <role place="52" personnage="Obanno's Liaison" />
+        <role place="22" personnage="Stockbroker" />
+        <role place="53" personnage="Chief of Police" />
+        <role place="62" personnage="Hotel Splendide Clerk" />
+        <role place="8" personnage="Alex Dimitrios" />
+        <role place="68" personnage="Hotel Splendide Limo Driver" />
+        <role place="14" personnage="Mollaka" />
+        <role place="15" personnage="Dryden" />
+        <role place="5" personnage="Felix Leiter" />
+        <role place="54" personnage="Police Chief's Girlfriends" />
+        <role place="29" personnage="Gräfin von Wallenstein" />
+        <role place="48" personnage="Pilot" />
+        <role place="35" personnage="Card Players" />
+        <role place="24" personnage="Tomelli" />
+      </roles>
     </film>
     <film no="F2822603">
       <titre>Tomorrow Never Dies</titre>
@@ -33,6 +107,55 @@
         <critique note="5">Très bon film</critique>
       </critiques>
       <langages liste="Mandarin English Cantonese German Danish " />
+      <genres liste="Crime Action Adventure Thriller " />
+      <mots_cles liste="Crime Action Adventure Thriller " />
+      <roles>
+        <role place="2" personnage="Elliot Carver" />
+        <role place="39" personnage="Beth Davidson" />
+        <role place="8" personnage="Dr. Kaufman" />
+        <role place="5" personnage="Henry Gupta" />
+        <role place="3" personnage="Wai Lin" />
+        <role place="18" personnage="PR Lady" />
+        <role place="24" personnage="Cmdr. Richard Day - HMS Devonshire" />
+        <role place="27" personnage="Yeoman - HMS Devonshire" />
+        <role place="35" personnage="Leading Seaman - HMS Bedford" />
+        <role place="4" personnage="Paris Carver" />
+        <role place="15" personnage="General Bukharin" />
+        <role place="21" personnage="Stealth Boat Captain" />
+        <role place="42" personnage="Philip Jones" />
+        <role place="11" personnage="Miss Moneypenny" />
+        <role place="10" personnage="Q" />
+        <role place="16" personnage="Professor Inga Bergstrom" />
+        <role place="41" personnage="Jeff Hobbs" />
+        <role place="19" personnage="Dr. Dave Greenwalt" />
+        <role place="25" personnage="Lt. Cmdr. Peter Hume - HMS Devonshire" />
+        <role place="26" personnage="Lieutenant Commander - HMS Devonshire" />
+        <role place="38" personnage="Staff Officer #2" />
+        <role place="29" personnage="Sonar Operator - HMS Devonshire" />
+        <role place="22" personnage="Captain - HMS Chester" />
+        <role place="14" personnage="Minister of Defence" />
+        <role place="17" personnage="Tamara Steel" />
+        <role place="9223372036854775807" personnage="Vietnamese Villager" />
+        <role place="7" personnage="Jack Wade" />
+        <role place="1" personnage="James Bond" />
+        <role place="23" personnage="Firing Officer - HMS Chester" />
+        <role place="30" personnage="Admiral Kelly - HMS Bedford" />
+        <role place="32" personnage="Air Warfare Officer - HMS Bedford" />
+        <role place="37" personnage="Staff Officer #1" />
+        <role place="44" personnage="General Chang" />
+        <role place="33" personnage="Principal Warfare Officer - HMS Bedford" />
+        <role place="9" personnage="M" />
+        <role place="12" personnage="Chief of Staff Charles Robinson" />
+        <role place="36" personnage="First Sea Lord" />
+        <role place="20" personnage="Master Sergeant 3" />
+        <role place="40" personnage="Mary Golson" />
+        <role place="43" personnage="MiG Pilot" />
+        <role place="13" personnage="Admiral Roebuck" />
+        <role place="28" personnage="Leading Seaman - HMS Devonshire" />
+        <role place="31" personnage="Captain - HMS Bedford" />
+        <role place="6" personnage="Stamper" />
+        <role place="34" personnage="Yeoman - HMS Bedford" />
+      </roles>
     </film>
   </films>
 </plex>

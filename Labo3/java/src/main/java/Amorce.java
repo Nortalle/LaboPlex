@@ -162,6 +162,41 @@ public class Amorce {
 
                 film.addContent(langages);
 
+                Element genres = new Element("genres");
+
+                String genres_string = "";
+                for(Element genre : filmTMP.getChild("genres").getChildren("genre")){
+
+                    genres_string += genre.getValue() + " ";
+                }
+
+                genres.setAttribute("liste", genres_string);
+
+                film.addContent(genres);
+
+                Element mots_cles = new Element("mots_cles");
+
+                String mots_cles_string = "";
+                for(Element genre : filmTMP.getChild("mots_cles").getChildren("mot_cle")){
+
+                    mots_cles_string += genre.getValue() + " ";
+                }
+
+                mots_cles.setAttribute("liste", genres_string);
+
+                film.addContent(mots_cles);
+
+                Element roles = new Element("roles");
+
+                for(Element acteurTMP : filmTMP.getChild("acteurs").getChildren("acteur")){
+                    for(Element roleTMP: acteurTMP.getChild("roles").getChildren("role")){
+                        Element role = new Element("role");
+                        role.setAttribute("place", roleTMP.getChild("place").getValue());
+                        role.setAttribute("personnage", roleTMP.getChild("nom").getValue());
+                        roles.addContent(role);
+                    }
+                }
+                film.addContent(roles);
 
                 films.addContent(film);
             }
