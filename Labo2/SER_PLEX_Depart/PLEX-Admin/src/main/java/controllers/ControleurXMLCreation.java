@@ -120,6 +120,7 @@ public class ControleurXMLCreation {
                                     for (Genre g : f.getGenres()) {
                                         Element genre = new Element("genre");
                                         genre.addContent(g.getLabel());
+                                        genre.setAttribute("no", "G" + g.getId());
 
                                         genres.addContent(genre);
                                     }
@@ -128,6 +129,7 @@ public class ControleurXMLCreation {
                                     for (Motcle mc : f.getMotcles()) {
                                         Element mot_cle = new Element("mot_cle");
                                         mot_cle.addContent(mc.getLabel());
+                                        mot_cle.setAttribute("no", "M" + mc.getId());
 
                                         mots_cles.addContent(mot_cle);
                                     }
@@ -136,6 +138,7 @@ public class ControleurXMLCreation {
                                     for (Langage l : f.getLangages()) {
                                         Element langage = new Element("langage");
                                         langage.addContent(l.getLabel());
+                                        langage.setAttribute("no", "L" + l.getId());
 
                                         langages.addContent(langage);
                                     }
@@ -154,6 +157,7 @@ public class ControleurXMLCreation {
                                     Element acteurs = new Element("acteurs");
                                     for (Acteur a : acteurSet) {
                                         Element acteur = new Element("acteur");
+                                        acteur.setAttribute("no", "A" + a.getId());
 
                                         {
                                             acteur.setAttribute("sexe", a.getSexe().name());

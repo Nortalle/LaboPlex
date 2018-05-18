@@ -12,12 +12,28 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Amorce {
+
+    private static String getDateHour(Element date) {
+        String date_string = getDate(date) + " ";
+        date_string += String.format("%02d", Integer.parseInt(date.getChild("heure").getValue())) + ":";
+        date_string += String.format("%02d", Integer.parseInt(date.getChild("minute").getValue()));
+
+        return date_string;
+    }
+
+
+    private static String getDate(Element date) {
+        String date_string = "";
+        date_string += String.format("%02d", Integer.parseInt(date.getChild("jour").getValue())) + ".";
+        date_string += String.format("%02d", Integer.parseInt(date.getChild("mois").getValue())) + ".";
+        date_string += String.format("%04d", Integer.parseInt(date.getChild("annee").getValue()));
+
+        return date_string;
+    }
 
     /**
      * permet de lire un fichier xml et de le transformer en document
@@ -25,20 +41,16 @@ public class Amorce {
      * @param fileName
      * @return
      */
-    private static Document getDOMParsedDocument(final String fileName)
-    {
+    private static Document getDOMParsedDocument(final String fileName) {
         Document document = null;
-        try
-        {
+        try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             //If want to make namespace aware.
             //factory.setNamespaceAware(true);
             DocumentBuilder documentBuilder = factory.newDocumentBuilder();
             org.w3c.dom.Document w3cDocument = documentBuilder.parse(fileName);
             document = new DOMBuilder().build(w3cDocument);
-        }
-        catch (IOException | org.xml.sax.SAXException | ParserConfigurationException e)
-        {
+        } catch (IOException | org.xml.sax.SAXException | ParserConfigurationException e) {
             e.printStackTrace();
         }
         return document;
@@ -46,14 +58,14 @@ public class Amorce {
 
     /**
      * doit créer un fichier qui se base sur la dtd donné par le prof
-     *
+     * <p>
      * On prends le xml du labo2, on voyage dedans pour prendre les informations qu'il nous faut
-     *
+     * <p>
      * afin de faire un nouveau xml désiré
      *
      * @param labo2
      */
-    private static void createXML(Document labo2){
+    private static void createXML(Document labo2) {
 
         try {
 
@@ -76,7 +88,7 @@ public class Amorce {
 
             Element projections = new Element("projections");
 
-            for(Element projectionTMP : labo2.getRootElement().getChildren("projection")){
+            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
                 Element projection = new Element("projection");
 
                 Element salle = new Element("salle");
@@ -88,14 +100,8 @@ public class Amorce {
                 Element date_heure = new Element("date_heure");
                 Element date = projectionTMP.getChild("date");
 
-                String date_string = "";
-                date_string += String.format("%02d", Integer.parseInt(date.getChild("jour").getValue()))+ ".";
-                date_string += String.format("%02d", Integer.parseInt(date.getChild("mois").getValue())) + ".";
-                date_string += String.format("%04d", Integer.parseInt(date.getChild("annee").getValue())) + " ";
-                date_string += String.format("%02d", Integer.parseInt(date.getChild("heure").getValue()))+ ":";
-                date_string += String.format("%02d", Integer.parseInt(date.getChild("minute").getValue()));
                 date_heure.setAttribute("format", "dd.MM.YYYY HH:mm");
-                date_heure.addContent(date_string);
+                date_heure.addContent(getDateHour(date));
 
                 projection.addContent(date_heure);
 
@@ -110,7 +116,7 @@ public class Amorce {
 
             Element films = new Element("films");
 
-            for(Element projectionTMP : labo2.getRootElement().getChildren("projection")){
+            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
                 Element film = new Element("film");
                 film.setAttribute("no", projectionTMP.getChild("film").getAttributeValue("film_id"));
 
@@ -120,7 +126,7 @@ public class Amorce {
                 titre.addContent(filmTMP.getChild("titre").getValue());
 
                 Element duree = new Element("duree");
-                duree.setAttribute("format","minutes");
+                duree.setAttribute("format", "minutes");
                 duree.addContent(filmTMP.getChild("duree").getValue());
 
                 Element synopsys = new Element("synopsys");
@@ -130,7 +136,7 @@ public class Amorce {
                 film.addContent(duree);
                 film.addContent(synopsys);
 
-                if(!filmTMP.getChild("photo").getAttribute("url").equals("null")){
+                if (!filmTMP.getChild("photo").getAttribute("url").equals("null")) {
                     Element photo = new Element("photo");
                     photo.setAttribute("url", filmTMP.getChild("photo").getAttribute("url").getValue());
                     film.addContent(photo);
@@ -138,7 +144,7 @@ public class Amorce {
 
                 Element critiques = new Element("critiques");
 
-                for(Element critique_TMP : filmTMP.getChild("critiques").getChildren("critique")){
+                for (Element critique_TMP : filmTMP.getChild("critiques").getChildren("critique")) {
                     Element critique = new Element("critique");
 
                     critique.setAttribute("note", critique_TMP.getChild("note").getValue());
@@ -153,7 +159,7 @@ public class Amorce {
                 Element langages = new Element("langages");
 
                 String langages_string = "";
-                for(Element langage : filmTMP.getChild("langages").getChildren("langage")){
+                for (Element langage : filmTMP.getChild("langages").getChildren("langage")) {
 
                     langages_string += langage.getValue() + " ";
                 }
@@ -165,7 +171,7 @@ public class Amorce {
                 Element genres = new Element("genres");
 
                 String genres_string = "";
-                for(Element genre : filmTMP.getChild("genres").getChildren("genre")){
+                for (Element genre : filmTMP.getChild("genres").getChildren("genre")) {
 
                     genres_string += genre.getValue() + " ";
                 }
@@ -177,7 +183,7 @@ public class Amorce {
                 Element mots_cles = new Element("mots_cles");
 
                 String mots_cles_string = "";
-                for(Element genre : filmTMP.getChild("mots_cles").getChildren("mot_cle")){
+                for (Element genre : filmTMP.getChild("mots_cles").getChildren("mot_cle")) {
 
                     mots_cles_string += genre.getValue() + " ";
                 }
@@ -188,11 +194,12 @@ public class Amorce {
 
                 Element roles = new Element("roles");
 
-                for(Element acteurTMP : filmTMP.getChild("acteurs").getChildren("acteur")){
-                    for(Element roleTMP: acteurTMP.getChild("roles").getChildren("role")){
+                for (Element acteurTMP : filmTMP.getChild("acteurs").getChildren("acteur")) {
+                    for (Element roleTMP : acteurTMP.getChild("roles").getChildren("role")) {
                         Element role = new Element("role");
                         role.setAttribute("place", roleTMP.getChild("place").getValue());
                         role.setAttribute("personnage", roleTMP.getChild("nom").getValue());
+                        role.setAttribute("acteur_id", acteurTMP.getAttributeValue("no"));
                         roles.addContent(role);
                     }
                 }
@@ -201,6 +208,97 @@ public class Amorce {
                 films.addContent(film);
             }
             plex.addContent(films);
+
+            Element acteurs = new Element("acteurs");
+
+            ArrayList<String> alreadyPlaced = new ArrayList<>();
+
+            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
+                for (Element acteurTMP : projectionTMP.getChild("film").getChild("acteurs").getChildren("acteur")) {
+                    if (!alreadyPlaced.contains(acteurTMP.getAttributeValue("no"))) {
+                        Element acteur = new Element("acteur");
+                        acteur.setAttribute("no", acteurTMP.getAttributeValue("no"));
+
+                        alreadyPlaced.add(acteurTMP.getAttributeValue("no"));
+
+                        Element nom = new Element("nom");
+                        nom.addContent(acteurTMP.getChild("nom").getValue());
+
+                        Element nom_naissance = new Element("nom_naissance");
+                        nom_naissance.addContent(acteurTMP.getChild("nom_naissance").getValue());
+
+                        Element sexe = new Element("sexe");
+                        sexe.setAttribute("valeur", acteurTMP.getAttributeValue("sexe"));
+
+                        Element date_naissance = new Element("date_naissance");
+                        date_naissance.setAttribute("format", "dd.mm.yyyy");
+                        if (!acteurTMP.getChild("date_naissance").getChild("jour").getValue().equals(""))
+                            date_naissance.addContent(getDate(acteurTMP.getChild("date_naissance")));
+
+                        Element date_deces = new Element("date_deces");
+                        date_deces.setAttribute("format", "dd.mm.yyyy");
+                        if (!acteurTMP.getChild("date_deces").getChild("jour").getValue().equals(""))
+                            date_deces.addContent(getDate(acteurTMP.getChild("date_deces")));
+
+                        Element biographie = new Element("biographie");
+                        biographie.addContent(acteurTMP.getChild("biographie").getValue());
+
+                        acteur.addContent(nom);
+                        acteur.addContent(nom_naissance);
+                        acteur.addContent(sexe);
+                        acteur.addContent(date_naissance);
+                        acteur.addContent(date_deces);
+                        acteur.addContent(biographie);
+
+                        acteurs.addContent(acteur);
+                    }
+                }
+            }
+
+            plex.addContent(acteurs);
+
+            Element liste_langages = new Element("liste_langages");
+
+            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
+                for (Element langageTMP : projectionTMP.getChild("film").getChild("langages").getChildren("langage")) {
+                    Element langage = new Element("langage");
+                    langage.addContent(langageTMP.getValue());
+                    langage.setAttribute("no", langageTMP.getAttributeValue("no"));
+
+
+                    liste_langages.addContent(langage);
+                }
+            }
+
+            plex.addContent(liste_langages);
+
+            Element liste_genres = new Element("liste_genres");
+
+            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
+                for (Element genreTMP : projectionTMP.getChild("film").getChild("genres").getChildren("genre")) {
+                    Element genre = new Element("genre");
+                    genre.addContent(genreTMP.getValue());
+                    genre.setAttribute("no", genreTMP.getAttributeValue("no"));
+
+
+                    liste_genres.addContent(genre);
+                }
+            }
+            plex.addContent(liste_genres);
+
+            Element liste_mots_cles = new Element("liste_mots_cles");
+
+            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
+                for (Element genreTMP : projectionTMP.getChild("film").getChild("mots_cles").getChildren("mot_cle")) {
+                    Element mot_cle = new Element("mot_cle");
+                    mot_cle.addContent(genreTMP.getValue());
+                    mot_cle.setAttribute("no", genreTMP.getAttributeValue("no"));
+
+
+                    liste_mots_cles.addContent(mot_cle);
+                }
+            }
+            plex.addContent(liste_mots_cles);
 
             /**
              * TODO remplir document de plein plein de xml
