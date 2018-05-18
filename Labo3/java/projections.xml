@@ -1,4 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plex SYSTEM "projections.dtd">
 <?xml-stylesheet href="projections.xsl" type="text/xsl"?>
-<plex />
+<plex>
+  <projections>
+    <projection film_id="F2053403" titre="Casino Royale">
+      <salle taille="300">Flon 2</salle>
+      <date_heure format="dd.MM.YYYY HH:mm">18.03.2018 22:08</date_heure>
+    </projection>
+    <projection film_id="F2822603" titre="Tomorrow Never Dies">
+      <salle taille="200">Flon 1</salle>
+      <date_heure format="dd.MM.YYYY HH:mm">18.03.2018 17:09</date_heure>
+    </projection>
+  </projections>
+  <films>
+    <film no="F2053403">
+      <titre>Casino Royale</titre>
+      <duree format="minutes">144</duree>
+      <synopsys>Casino Royale introduces James Bond before he holds his license to kill. But Bond is no less dangerous, and with two professional assassinations in quick succession, he is elevated to '00' status. Bond's first 007 mission takes him to Uganda where he is to spy on a terrorist, Mollaka. Not everything goes to plan and Bond decides to investigate, independently of MI6, in order to track down the rest of the terrorist cell. Following a lead to the Bahamas, he encounters Dimitrios and his girlfriend, Solange. He learns that Dimitrios is involved with Le Chiffre, banker to the world's terrorist organizations. Secret Service intelligence reveals that Le Chiffre is planning to raise money in a high-stakes poker game in Montenegro at Le Casino Royale. MI6 assigns 007 to play against him, knowing that if Le Chiffre loses, it will destroy his organization. 'M' places Bond under the watchful eye of the beguiling Vesper Lynd. At first skeptical of what value Vesper can provide, Bond's interest in her deepens as they brave danger together and even torture at the hands of Le Chiffre. In Montenegro, Bond allies himself with Mathis MI6's local field agent, and Felix Leiter who is representing the interests of the CIA. The marathon game proceeds with dirty tricks and violence, raising the stakes beyond blood money and reaching a terrifying climax.</synopsys>
+      <photo url="null" />
+      <critiques>
+        <critique note="1">Je m'attendais à voir Bob l'éponge dans les guest</critique>
+      </critiques>
+      <langages liste="English French " />
+    </film>
+    <film no="F2822603">
+      <titre>Tomorrow Never Dies</titre>
+      <duree format="minutes">119</duree>
+      <synopsys>Agent 007, the unstoppable action hero must prevent a tremendous disaster ripped from tomorrow's headlines. Someone is pitting the world's superpowers against each other - and only James Bond can stop it. When a British warship is mysteriously destroyed in Chinese waters, the world teeters on the brink of World War III - until 007 zeros in on the true criminal mastermind. Bond's do-or-die mission takes him to Elliot Carver, a powerful media mogul who manipulates world events as easily as he changes headlines from his global media empire. After soliciting help from Carver's sexy wife, Paris, Bond join forces with a stunning yet lethal Chinese agent, Wai Lin, in a series of explosive chases, brutal confrontations and breathtaking escapes as they race to stop the presses on Carver's next planned news story: global pandemonium!</synopsys>
+      <photo url="null" />
+      <critiques>
+        <critique note="3">Le film était bien, mais mon ex était dans la salle</critique>
+        <critique note="5">Très bon film</critique>
+      </critiques>
+      <langages liste="Mandarin English Cantonese German Danish " />
+    </film>
+  </films>
+</plex>

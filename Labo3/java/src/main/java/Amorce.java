@@ -80,10 +80,92 @@ public class Amorce {
                 Element projection = new Element("projection");
 
                 Element salle = new Element("salle");
+                salle.setAttribute("taille", projectionTMP.getChild("salle").getAttribute("taille").getValue());
+                salle.addContent(projectionTMP.getChild("salle").getContent(0).getValue());
+
+                projection.addContent(salle);
+
+                Element date_heure = new Element("date_heure");
+                Element date = projectionTMP.getChild("date");
+
+                String date_string = "";
+                date_string += String.format("%02d", Integer.parseInt(date.getChild("jour").getValue()))+ ".";
+                date_string += String.format("%02d", Integer.parseInt(date.getChild("mois").getValue())) + ".";
+                date_string += String.format("%04d", Integer.parseInt(date.getChild("annee").getValue())) + " ";
+                date_string += String.format("%02d", Integer.parseInt(date.getChild("heure").getValue()))+ ":";
+                date_string += String.format("%02d", Integer.parseInt(date.getChild("minute").getValue()));
+                date_heure.setAttribute("format", "dd.MM.YYYY HH:mm");
+                date_heure.addContent(date_string);
+
+                projection.addContent(date_heure);
+
+                projection.setAttribute("film_id", projectionTMP.getChild("film").getAttributeValue("film_id"));
+                projection.setAttribute("titre", projectionTMP.getChild("film").getChild("titre").getValue());
+
+
+                projections.addContent(projection);
             }
 
             plex.addContent(projections);
 
+            Element films = new Element("films");
+
+            for(Element projectionTMP : labo2.getRootElement().getChildren("projection")){
+                Element film = new Element("film");
+                film.setAttribute("no", projectionTMP.getChild("film").getAttributeValue("film_id"));
+
+                Element filmTMP = projectionTMP.getChild("film");
+
+                Element titre = new Element("titre");
+                titre.addContent(filmTMP.getChild("titre").getValue());
+
+                Element duree = new Element("duree");
+                duree.setAttribute("format","minutes");
+                duree.addContent(filmTMP.getChild("duree").getValue());
+
+                Element synopsys = new Element("synopsys");
+                synopsys.addContent(filmTMP.getChild("synopsis").getValue());
+
+                film.addContent(titre);
+                film.addContent(duree);
+                film.addContent(synopsys);
+
+                if(!filmTMP.getChild("photo").getAttribute("url").equals("null")){
+                    Element photo = new Element("photo");
+                    photo.setAttribute("url", filmTMP.getChild("photo").getAttribute("url").getValue());
+                    film.addContent(photo);
+                }
+
+                Element critiques = new Element("critiques");
+
+                for(Element critique_TMP : filmTMP.getChild("critiques").getChildren("critique")){
+                    Element critique = new Element("critique");
+
+                    critique.setAttribute("note", critique_TMP.getChild("note").getValue());
+
+                    critique.addContent(critique_TMP.getChild("texte").getValue());
+
+
+                    critiques.addContent(critique);
+                }
+                film.addContent(critiques);
+
+                Element langages = new Element("langages");
+
+                String langages_string = "";
+                for(Element langage : filmTMP.getChild("langages").getChildren("langage")){
+
+                    langages_string += langage.getValue() + " ";
+                }
+
+                langages.setAttribute("liste", langages_string);
+
+                film.addContent(langages);
+
+
+                films.addContent(film);
+            }
+            plex.addContent(films);
 
             /**
              * TODO remplir document de plein plein de xml

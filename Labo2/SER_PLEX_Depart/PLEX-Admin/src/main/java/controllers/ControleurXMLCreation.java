@@ -85,11 +85,14 @@ public class ControleurXMLCreation {
 
                                 Element salle = new Element("salle");
                                 salle.addContent(p.getSalle().getNo());
+                                salle.setAttribute("taille", Integer.toString(p.getSalle().getTaille()));
 
 
                                 Element film = new Element("film");
                                 {
                                     Film f = p.getFilm();
+
+                                    film.setAttribute("film_id", "F" + f.getId());
 
                                     Element titre = new Element("titre");
                                     titre.addContent(f.getTitre());
