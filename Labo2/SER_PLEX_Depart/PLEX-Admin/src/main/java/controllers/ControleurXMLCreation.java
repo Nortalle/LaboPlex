@@ -86,6 +86,7 @@ public class ControleurXMLCreation {
                                 Element salle = new Element("salle");
                                 salle.addContent(p.getSalle().getNo());
 
+
                                 Element film = new Element("film");
                                 {
                                     Film f = p.getFilm();

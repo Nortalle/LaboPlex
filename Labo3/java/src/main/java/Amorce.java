@@ -72,14 +72,25 @@ public class Amorce {
             piXSL.setData(piAttributes);
             document.addContent(piXSL);
 
+            Element plex = new Element("plex");
+
+            Element projections = new Element("projections");
+
+            for(Element projectionTMP : labo2.getRootElement().getChildren("projection")){
+                Element projection = new Element("projection");
+
+                Element salle = new Element("salle");
+            }
+
+            plex.addContent(projections);
+
 
             /**
              * TODO remplir document de plein plein de xml
              */
 
 
-
-
+            document.addContent(plex);
 
             outp.output(document, new FileOutputStream("projections.xml"));
 
