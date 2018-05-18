@@ -1,31 +1,34 @@
 {
-	"projections": {
-		"type": "array",
-		"items" : {
-			"type": "object",
-			"properties": {
-				"date" :  	{
-					"type": "object",
-					"proprieties": {
-						"jour": {"type": "number"},
-						"mois": {"type": "number"},
-						"annee": {"type": "number"},
-						"heure": {"type": "number"},
-						"minute": {"type": "number"}
-					} 
-				},
-				"film": {
-					"titre": {"type": "string"},
-					"acteurs": {
+	"type" :"object",
+    "properties" : {
+		"projections": {
+			"type": "array",
+			"items" : {
+				"type": "object",
+				"properties": {
+					"date" :  	{
 						"type": "object",
-						"properties" : {
-							"nom_naissance": {"type": "string"},
-							"nom": {"type": "string"}
+						"proprieties": {
+							"jour": {"type": "number"},
+							"mois": {"type": "number"},
+							"annee": {"type": "number"},
+							"heure": {"type": "number"},
+							"minute": {"type": "number"}
+						} 
+					},
+					"film": {
+						"titre": {"type": "string"},
+						"acteurs": {
+							"type": "object",
+							"properties" : {
+								"nom_naissance": {"type": "string"},
+								"nom": {"type": "string"}
+							}
 						}
 					}
 				}
 			}
-		}
-	}	
+		}	
+	}
 }
 	
