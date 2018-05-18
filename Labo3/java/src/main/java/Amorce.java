@@ -161,7 +161,7 @@ public class Amorce {
                 String langages_string = "";
                 for (Element langage : filmTMP.getChild("langages").getChildren("langage")) {
 
-                    langages_string += langage.getValue() + " ";
+                    langages_string += langage.getAttributeValue("no") + " ";
                 }
 
                 langages.setAttribute("liste", langages_string);
@@ -173,7 +173,7 @@ public class Amorce {
                 String genres_string = "";
                 for (Element genre : filmTMP.getChild("genres").getChildren("genre")) {
 
-                    genres_string += genre.getValue() + " ";
+                    genres_string += genre.getAttributeValue("no") + " ";
                 }
 
                 genres.setAttribute("liste", genres_string);
@@ -185,7 +185,7 @@ public class Amorce {
                 String mots_cles_string = "";
                 for (Element genre : filmTMP.getChild("mots_cles").getChildren("mot_cle")) {
 
-                    mots_cles_string += genre.getValue() + " ";
+                    mots_cles_string += genre.getAttributeValue("no") + " ";
                 }
 
                 mots_cles.setAttribute("liste", genres_string);

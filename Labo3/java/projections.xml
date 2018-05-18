@@ -21,9 +21,9 @@
       <critiques>
         <critique note="1">Je m'attendais à voir Bob l'éponge dans les guest</critique>
       </critiques>
-      <langages liste="English French " />
-      <genres liste="Action Adventure Thriller " />
-      <mots_cles liste="Action Adventure Thriller " />
+      <langages liste="L525 L526 " />
+      <genres liste="G522 G523 G524 " />
+      <mots_cles liste="G522 G523 G524 " />
       <roles>
         <role place="40" personnage="Hot Room Doctors" acteur_id="A185672" />
         <role place="32" personnage="Ocean Club Receptionist" acteur_id="A2167366" />
@@ -106,9 +106,9 @@
         <critique note="3">Le film était bien, mais mon ex était dans la salle</critique>
         <critique note="5">Très bon film</critique>
       </critiques>
-      <langages liste="German Cantonese Mandarin Danish English " />
-      <genres liste="Action Crime Adventure Thriller " />
-      <mots_cles liste="Action Crime Adventure Thriller " />
+      <langages liste="L9 L12 L10 L8 L11 " />
+      <genres liste="G7 G4 G5 G6 " />
+      <mots_cles liste="G7 G4 G5 G6 " />
       <roles>
         <role place="6" personnage="Stamper" acteur_id="A1334064" />
         <role place="16" personnage="Professor Inga Bergstrom" acteur_id="A2949256" />
