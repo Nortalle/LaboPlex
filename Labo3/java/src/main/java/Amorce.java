@@ -1,9 +1,11 @@
+import jdk.internal.org.xml.sax.XMLReader;
 import org.jdom2.DocType;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.ProcessingInstruction;
 import org.jdom2.filter.Filters;
 import org.jdom2.input.DOMBuilder;
+import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 import org.jdom2.xpath.XPathExpression;
@@ -12,6 +14,7 @@ import org.jdom2.xpath.XPathFactory;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.*;
@@ -258,12 +261,30 @@ public class Amorce {
 
             plex.addContent(acteurs);
 
+//            Element liste_langages = new Element("liste_langages");
+//
+//            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
+//                for (Element langageTMP : projectionTMP.getChild("film").getChild("langages").getChildren("langage")) {
+//                    Element langage = new Element("langage");
+//                    langage.addContent(langageTMP.getValue());
+//                    langage.setAttribute("no", langageTMP.getAttributeValue("no"));
+//
+//
+//                    liste_langages.addContent(langage);
+//                }
+//            }
+//
+//            plex.addContent(liste_langages);
+
             Element liste_langages = new Element("liste_langages");
 
-            XPathFactory xpfac = XPathFactory.instance();
+            SAXBuilder builder = new SAXBuilder();
+            Document xmlDoc = builder.build(new File("plex.xml"));
 
-            XPathExpression xp = xpfac.compile("/film/langages/langage", Filters.element());
-            List<Element> langages = (List<Element>) (xp.evaluate(labo2));
+            XPathFactory xpfac = XPathFactory.instance();
+            XPathExpression xp = xpfac.compile("//film/langages/langage", Filters.element());
+
+            List<Element> langages = (List<Element>) (xp.evaluate(xmlDoc));
             for (Element l : langages) {
                 Element langage = new Element("langage");
                 langage.addContent(l.getValue());
@@ -275,22 +296,6 @@ public class Amorce {
 
             plex.addContent(liste_langages);
 
-/*
-            Element liste_langages = new Element("liste_langages");
-
-            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
-                for (Element langageTMP : projectionTMP.getChild("film").getChild("langages").getChildren("langage")) {
-                    Element langage = new Element("langage");
-                    langage.addContent(langageTMP.getValue());
-                    langage.setAttribute("no", langageTMP.getAttributeValue("no"));
-
-
-                    liste_langages.addContent(langage);
-                }
-            }
-
-            plex.addContent(liste_langages);
-*/
             Element liste_genres = new Element("liste_genres");
 
             for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {

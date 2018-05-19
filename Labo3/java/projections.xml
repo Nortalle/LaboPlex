@@ -1072,7 +1072,15 @@
       <biographie />
     </acteur>
   </acteurs>
-  <liste_langages />
+  <liste_langages>
+    <langage no="L525">English</langage>
+    <langage no="L526">French</langage>
+    <langage no="L9">German</langage>
+    <langage no="L12">Cantonese</langage>
+    <langage no="L10">Mandarin</langage>
+    <langage no="L8">Danish</langage>
+    <langage no="L11">English</langage>
+  </liste_langages>
   <liste_genres>
     <genre no="G522">Action</genre>
     <genre no="G523">Adventure</genre>
