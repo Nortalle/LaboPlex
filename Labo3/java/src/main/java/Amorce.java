@@ -1,18 +1,19 @@
-import jdk.internal.org.xml.sax.SAXException;
 import org.jdom2.DocType;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.ProcessingInstruction;
+import org.jdom2.filter.Filters;
 import org.jdom2.input.DOMBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
+import org.jdom2.xpath.XPathExpression;
+import org.jdom2.xpath.XPathFactory;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Amorce {
@@ -259,6 +260,24 @@ public class Amorce {
 
             Element liste_langages = new Element("liste_langages");
 
+            XPathFactory xpfac = XPathFactory.instance();
+
+            XPathExpression xp = xpfac.compile("/film/langages/langage", Filters.element());
+            List<Element> langages = (List<Element>) (xp.evaluate(labo2));
+            for (Element l : langages) {
+                Element langage = new Element("langage");
+                langage.addContent(l.getValue());
+                langage.setAttribute("no", l.getAttributeValue("no"));
+
+
+                liste_langages.addContent(langage);
+            }
+
+            plex.addContent(liste_langages);
+
+/*
+            Element liste_langages = new Element("liste_langages");
+
             for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
                 for (Element langageTMP : projectionTMP.getChild("film").getChild("langages").getChildren("langage")) {
                     Element langage = new Element("langage");
@@ -271,7 +290,7 @@ public class Amorce {
             }
 
             plex.addContent(liste_langages);
-
+*/
             Element liste_genres = new Element("liste_genres");
 
             for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
@@ -299,11 +318,6 @@ public class Amorce {
                 }
             }
             plex.addContent(liste_mots_cles);
-
-            /**
-             * TODO remplir document de plein plein de xml
-             */
-
 
             document.addContent(plex);
 
