@@ -21,6 +21,10 @@ import java.util.*;
 
 public class Amorce {
 
+    /**
+     * @param date : date à parser
+     * @return la date dans le format "dd.MM.YYYY HH:mm"
+     */
     private static String getDateHour(Element date) {
         String date_string = getDate(date) + " ";
         date_string += String.format("%02d", Integer.parseInt(date.getChild("heure").getValue())) + ":";
@@ -30,6 +34,10 @@ public class Amorce {
     }
 
 
+    /**
+     * @param date : date à parser
+     * @return la date dans le format "dd.MM.YYYY
+     */
     private static String getDate(Element date) {
         String date_string = "";
         date_string += String.format("%02d", Integer.parseInt(date.getChild("jour").getValue())) + ".";
@@ -40,7 +48,7 @@ public class Amorce {
     }
 
     /**
-     * permet de lire un fichier xml et de le transformer en document
+     * permet de lire un fichier xml et de le transformer en Document
      *
      * @param fileName
      * @return
@@ -88,8 +96,12 @@ public class Amorce {
             piXSL.setData(piAttributes);
             document.addContent(piXSL);
 
+            //Element racine
             Element plex = new Element("plex");
 
+            //----------------------------------------------------------------------------------------------------------
+            //                                        PROJECTIONS
+            //----------------------------------------------------------------------------------------------------------
             Element projections = new Element("projections");
 
             for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
@@ -117,6 +129,11 @@ public class Amorce {
             }
 
             plex.addContent(projections);
+
+
+            //----------------------------------------------------------------------------------------------------------
+            //                                        FILMS
+            //----------------------------------------------------------------------------------------------------------
 
             Element films = new Element("films");
 
@@ -213,6 +230,11 @@ public class Amorce {
             }
             plex.addContent(films);
 
+
+            //----------------------------------------------------------------------------------------------------------
+            //                                        ACTEURS
+            //----------------------------------------------------------------------------------------------------------
+
             Element acteurs = new Element("acteurs");
 
             ArrayList<String> alreadyPlaced = new ArrayList<>();
@@ -261,20 +283,10 @@ public class Amorce {
 
             plex.addContent(acteurs);
 
-//            Element liste_langages = new Element("liste_langages");
-//
-//            for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
-//                for (Element langageTMP : projectionTMP.getChild("film").getChild("langages").getChildren("langage")) {
-//                    Element langage = new Element("langage");
-//                    langage.addContent(langageTMP.getValue());
-//                    langage.setAttribute("no", langageTMP.getAttributeValue("no"));
-//
-//
-//                    liste_langages.addContent(langage);
-//                }
-//            }
-//
-//            plex.addContent(liste_langages);
+
+            //----------------------------------------------------------------------------------------------------------
+            //                                        LISTE_LANGAGES
+            //----------------------------------------------------------------------------------------------------------
 
             Element liste_langages = new Element("liste_langages");
 
@@ -296,6 +308,11 @@ public class Amorce {
 
             plex.addContent(liste_langages);
 
+
+            //----------------------------------------------------------------------------------------------------------
+            //                                        LISTE_GENRES
+            //----------------------------------------------------------------------------------------------------------
+
             Element liste_genres = new Element("liste_genres");
 
             for (Element projectionTMP : labo2.getRootElement().getChildren("projection")) {
@@ -309,6 +326,11 @@ public class Amorce {
                 }
             }
             plex.addContent(liste_genres);
+
+
+            //----------------------------------------------------------------------------------------------------------
+            //                                        LISTE_MOTS_CLES
+            //----------------------------------------------------------------------------------------------------------
 
             Element liste_mots_cles = new Element("liste_mots_cles");
 
@@ -326,6 +348,8 @@ public class Amorce {
 
             document.addContent(plex);
 
+
+            //we create the .xml file
             outp.output(document, new FileOutputStream("projections.xml"));
 
         } catch (Exception e) {
@@ -336,9 +360,6 @@ public class Amorce {
     public static void main(String[] args) {
         String xmlFile = "plex.xml";
         Document labo2 = getDOMParsedDocument(xmlFile);
-
-        Element rootNode = labo2.getRootElement();
-        System.out.println("Root Element :: " + rootNode.getName());
 
         createXML(labo2);
     }

@@ -63,8 +63,11 @@ public class ControleurMedia {
 								else
 									actor.add("nom", new JsonPrimitive(role.getActeur().getNom()));
 
+								actor.add("role", new JsonPrimitive((role.getPersonnage())));
+
 								actorList.add(actor);
 							}
+
 						}
 
 						film.add("acteurs", actorList);

@@ -1,0 +1,64 @@
+{
+  "projections": [
+    {
+      "date": {
+        "jour": 19,
+        "mois": 4,
+        "annee": 2018,
+        "heure": 10,
+        "minute": 52
+      },
+      "film": {
+        "titre": "Tomorrow Never Dies",
+        "acteurs": [
+          {
+            "nom_naissance": "Brosnan, Pierce Brendan"
+          },
+          {
+            "nom_naissance": "Price, John"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "jour": 19,
+        "mois": 3,
+        "annee": 2018,
+        "heure": 10,
+        "minute": 52
+      },
+      "film": {
+        "titre": "Inglourious Basterds",
+        "acteurs": [
+          {
+            "nom": "Laurent, Mélanie"
+          },
+          {
+            "nom_naissance": "Pitt, William Bradley"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "jour": 19,
+        "mois": 3,
+        "annee": 2018,
+        "heure": 10,
+        "minute": 52
+      },
+      "film": {
+        "titre": "Ocean\u0027s Eleven",
+        "acteurs": [
+          {
+            "nom_naissance": "Clooney, George Timothy"
+          },
+          {
+            "nom": "Birt, Cecelia Ann"
+          }
+        ]
+      }
+    }
+  ]
+}
