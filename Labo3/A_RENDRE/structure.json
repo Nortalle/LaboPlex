@@ -2,60 +2,176 @@
   "projections": [
     {
       "date": {
-        "jour": 19,
-        "mois": 4,
+        "jour": 18,
+        "mois": 3,
         "annee": 2018,
-        "heure": 10,
-        "minute": 52
+        "heure": 20,
+        "minute": 40
       },
       "film": {
         "titre": "Tomorrow Never Dies",
         "acteurs": [
           {
-            "nom_naissance": "Brosnan, Pierce Brendan"
+            "nom_naissance": "Brosnan, Pierce Brendan",
+            "role": "James Bond"
           },
           {
-            "nom_naissance": "Price, John"
+            "nom_naissance": "Price, John",
+            "role": "Elliot Carver"
           }
         ]
       }
     },
     {
       "date": {
-        "jour": 19,
+        "jour": 18,
         "mois": 3,
         "annee": 2018,
-        "heure": 10,
-        "minute": 52
+        "heure": 20,
+        "minute": 40
       },
       "film": {
-        "titre": "Inglourious Basterds",
+        "titre": "Tomorrow Never Dies",
         "acteurs": [
           {
-            "nom": "Laurent, Mélanie",
+            "nom_naissance": "Brosnan, Pierce Brendan",
+            "role": "James Bond"
           },
           {
-            "nom_naissance": "Pitt, William Bradley"
+            "nom_naissance": "Price, John",
+            "role": "Elliot Carver"
           }
         ]
       }
     },
     {
       "date": {
-        "jour": 19,
+        "jour": 18,
         "mois": 3,
         "annee": 2018,
-        "heure": 10,
-        "minute": 52
+        "heure": 23,
+        "minute": 40
+      },
+      "film": {
+        "titre": "Ocean\u0027s Thirteen",
+        "acteurs": [
+          {
+            "nom_naissance": "Clooney, George Timothy",
+            "role": "Danny Ocean"
+          },
+          {
+            "nom_naissance": "Pitt, William Bradley",
+            "role": "Rusty Ryan"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "jour": 18,
+        "mois": 3,
+        "annee": 2018,
+        "heure": 23,
+        "minute": 40
+      },
+      "film": {
+        "titre": "GoldenEye",
+        "acteurs": [
+          {
+            "nom_naissance": "Brosnan, Pierce Brendan",
+            "role": "James Bond"
+          },
+          {
+            "nom_naissance": "Bean, Shaun Mark",
+            "role": "Alec Trevelyan"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "jour": 18,
+        "mois": 3,
+        "annee": 2018,
+        "heure": 23,
+        "minute": 40
+      },
+      "film": {
+        "titre": "Ocean\u0027s Twelve",
+        "acteurs": [
+          {
+            "nom_naissance": "Jones, Catherine",
+            "role": "Isabel Lahiri"
+          },
+          {
+            "nom_naissance": "Pitt, William Bradley",
+            "role": "Rusty Ryan"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "jour": 18,
+        "mois": 3,
+        "annee": 2018,
+        "heure": 23,
+        "minute": 40
+      },
+      "film": {
+        "titre": "Casino Royale",
+        "acteurs": [
+          {
+            "nom_naissance": "Green, Eva Gaëlle",
+            "role": "Vesper Lynd"
+          },
+          {
+            "nom_naissance": "Craig, Daniel Wroughton",
+            "role": "James Bond"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "jour": 18,
+        "mois": 3,
+        "annee": 2018,
+        "heure": 23,
+        "minute": 40
+      },
+      "film": {
+        "titre": "The World Is Not Enough",
+        "acteurs": [
+          {
+            "nom_naissance": "Brosnan, Pierce Brendan",
+            "role": "James Bond"
+          },
+          {
+            "nom_naissance": "Maupu, Sophie Danièle Sylvie",
+            "role": "Elektra King"
+          }
+        ]
+      }
+    },
+    {
+      "date": {
+        "jour": 18,
+        "mois": 3,
+        "annee": 2018,
+        "heure": 23,
+        "minute": 40
       },
       "film": {
         "titre": "Ocean\u0027s Eleven",
         "acteurs": [
           {
-            "nom_naissance": "Clooney, George Timothy"
+            "nom_naissance": "Clooney, George Timothy",
+            "role": "Danny Ocean"
           },
           {
-            "nom": "Birt, Cecelia Ann"
+            "nom": "Birt, Cecelia Ann",
+            "role": "Board Member #1"
           }
         ]
       }
